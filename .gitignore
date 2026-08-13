@@ -1,0 +1,13 @@
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+renv/library/
+renv/staging/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+~$*

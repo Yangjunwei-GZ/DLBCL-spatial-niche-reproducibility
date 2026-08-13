@@ -1,0 +1,13 @@
+"program","program_order","component","pearson_r"
+"Macrophage-rich",1,"PC1",0.79192120371745
+"Macrophage-rich",1,"PC2",-0.137475675989118
+"T cell-inflamed",2,"PC1",0.71862935521028
+"T cell-inflamed",2,"PC2",-0.440987445253626
+"Immune-inflamed / antigen-presentation",3,"PC1",0.805477233833932
+"Immune-inflamed / antigen-presentation",3,"PC2",-0.424701358163207
+"Stromal / fibrotic",4,"PC1",0.681932197603647
+"Stromal / fibrotic",4,"PC2",0.598755537377576
+"Immune-cold / exclusion-associated",5,"PC1",0.808994523162827
+"Immune-cold / exclusion-associated",5,"PC2",0.480179411299891
+"Proliferative / cycling",6,"PC1",0.0563568828636494
+"Proliferative / cycling",6,"PC2",-0.512971804170238

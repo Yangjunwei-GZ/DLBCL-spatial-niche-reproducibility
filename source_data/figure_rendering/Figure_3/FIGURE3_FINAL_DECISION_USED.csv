@@ -1,0 +1,8 @@
+"Decision field","Final value","Submission interpretation"
+"Candidate k","2-6","Every candidate evaluated under the same prespecified criteria"
+"Primary passing k","None","No primary k passed"
+"One-criterion near miss","None","No candidate was sufficiently close to acceptance"
+"Nonreference passing variants","0/14 for every k","Sensitivity analyses did not rescue a discrete model"
+"Final k","NOT_SELECTED","No discrete model selected"
+"Taxonomy","NOT_ASSIGNED","No biological class labels assigned"
+"Primary manuscript model","Six continuous scores plus PC1/PC2","Continuous abundance-weighted representation"

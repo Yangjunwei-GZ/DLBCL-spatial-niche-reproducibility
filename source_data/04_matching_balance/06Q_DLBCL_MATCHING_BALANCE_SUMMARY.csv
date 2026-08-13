@@ -1,0 +1,2 @@
+"area_role","areas","combinations","replicates","median_abs_expression_smd","p95_abs_expression_smd","max_abs_expression_smd","median_abs_detection_smd","p95_abs_detection_smd","max_abs_detection_smd","prop_both_abs_smd_le_0_05","prop_both_abs_smd_le_0_10","prop_both_abs_smd_le_0_20","median_matching_distance","max_matching_distance"
+"PRIMARY_DLBCL",5,30,30000,0.0350513243757195,0.325795056389846,0.580271754335713,0.0197667258297207,0.108900769789154,0.189427702529688,0.5215,0.766266666666667,0.9077,0.0971321490678464,3.01853074928648

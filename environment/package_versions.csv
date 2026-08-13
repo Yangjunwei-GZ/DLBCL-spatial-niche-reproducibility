@@ -1,0 +1,6 @@
+"package","version","source"
+"R","4.5.1","validated execution records"
+"MCPcounter","1.2.0","06r official ebecht/MCPcounter commit b6eac73e91c246fcff0bb1a5c68a816cd588fc48"
+"Seurat","see renv.lock/sessionInfo","environment capture"
+"UCell","see renv.lock/sessionInfo","environment capture"
+"GSVA","see renv.lock/sessionInfo","environment capture"

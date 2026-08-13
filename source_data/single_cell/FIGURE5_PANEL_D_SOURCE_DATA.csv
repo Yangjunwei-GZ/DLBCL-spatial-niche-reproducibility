@@ -1,0 +1,217 @@
+program,program_name,program_order,Patient,CellType,n_cells,mean_raw_ucell,median_raw_ucell
+"macrophage_rich","Macrophage-rich program",1,"DLBCL002","B cells",1651,0.0444722610143065,0.0394998015085352
+"macrophage_rich","Macrophage-rich program",1,"DLBCL002","Monocytes and Macrophages",214,0.375660579880471,0.391066357223562
+"macrophage_rich","Macrophage-rich program",1,"DLBCL002","NK cells",69,0.0678792127434618,0.0721440131920481
+"macrophage_rich","Macrophage-rich program",1,"DLBCL002","Others",0,NA,NA
+"macrophage_rich","Macrophage-rich program",1,"DLBCL002","Plasma cells",65,0.0880536326287082,0.0897181421198888
+"macrophage_rich","Macrophage-rich program",1,"DLBCL002","T cells CD4",1720,0.0107683750189082,0
+"macrophage_rich","Macrophage-rich program",1,"DLBCL002","T cells CD8",1177,0.018995740859112,0.0153907228143036
+"macrophage_rich","Macrophage-rich program",1,"DLBCL002","TFH",209,0.00691279218681488,0
+"macrophage_rich","Macrophage-rich program",1,"DLBCL002","Tregs",429,0.0113370765186199,0
+"macrophage_rich","Macrophage-rich program",1,"DLBCL007","B cells",827,0.0115733577079105,0
+"macrophage_rich","Macrophage-rich program",1,"DLBCL007","Monocytes and Macrophages",15,0.356028542054743,0.349818303966776
+"macrophage_rich","Macrophage-rich program",1,"DLBCL007","NK cells",5,0.0832351055058479,0.084740586923993
+"macrophage_rich","Macrophage-rich program",1,"DLBCL007","Others",5,0.121986746877577,0.123079976791767
+"macrophage_rich","Macrophage-rich program",1,"DLBCL007","Plasma cells",0,NA,NA
+"macrophage_rich","Macrophage-rich program",1,"DLBCL007","T cells CD4",131,0.010831829592455,0
+"macrophage_rich","Macrophage-rich program",1,"DLBCL007","T cells CD8",302,0.0203157986060904,0.0160701743671176
+"macrophage_rich","Macrophage-rich program",1,"DLBCL007","TFH",14,0.0263557403295395,0.0341863376797875
+"macrophage_rich","Macrophage-rich program",1,"DLBCL007","Tregs",135,0.00722248800851421,0
+"macrophage_rich","Macrophage-rich program",1,"DLBCL008","B cells",462,0.0222820054102309,0.0198949522093627
+"macrophage_rich","Macrophage-rich program",1,"DLBCL008","Monocytes and Macrophages",292,0.510018014825995,0.542805447827282
+"macrophage_rich","Macrophage-rich program",1,"DLBCL008","NK cells",17,0.0603432016224207,0.0479127859040522
+"macrophage_rich","Macrophage-rich program",1,"DLBCL008","Others",0,NA,NA
+"macrophage_rich","Macrophage-rich program",1,"DLBCL008","Plasma cells",37,0.0577663809104857,0.0530888325648151
+"macrophage_rich","Macrophage-rich program",1,"DLBCL008","T cells CD4",437,0.0144644409581006,0.00880996732525119
+"macrophage_rich","Macrophage-rich program",1,"DLBCL008","T cells CD8",1605,0.0305847045797256,0.0279872965462485
+"macrophage_rich","Macrophage-rich program",1,"DLBCL008","TFH",0,NA,NA
+"macrophage_rich","Macrophage-rich program",1,"DLBCL008","Tregs",150,0.0174422084465753,0.0126194765932757
+"macrophage_rich","Macrophage-rich program",1,"DLBCL111","B cells",496,0.0533455046854822,0.0539438727211653
+"macrophage_rich","Macrophage-rich program",1,"DLBCL111","Monocytes and Macrophages",46,0.259710481278736,0.231379973738052
+"macrophage_rich","Macrophage-rich program",1,"DLBCL111","NK cells",122,0.0585288253159969,0.0567609246648548
+"macrophage_rich","Macrophage-rich program",1,"DLBCL111","Others",41,0.113659638901944,0.114743335267353
+"macrophage_rich","Macrophage-rich program",1,"DLBCL111","Plasma cells",0,NA,NA
+"macrophage_rich","Macrophage-rich program",1,"DLBCL111","T cells CD4",966,0.0144768528098697,0.00857330442483278
+"macrophage_rich","Macrophage-rich program",1,"DLBCL111","T cells CD8",2399,0.0198800973314007,0.0160625400800073
+"macrophage_rich","Macrophage-rich program",1,"DLBCL111","TFH",72,0.023731393545804,0.018177237609552
+"macrophage_rich","Macrophage-rich program",1,"DLBCL111","Tregs",258,0.0145810149364531,0.00793965859468043
+"t_cell_inflamed","T cell-inflamed program",2,"DLBCL002","B cells",1651,0.00794623397703707,0
+"t_cell_inflamed","T cell-inflamed program",2,"DLBCL002","Monocytes and Macrophages",214,0.027208599261001,0.00713805844810211
+"t_cell_inflamed","T cell-inflamed program",2,"DLBCL002","NK cells",69,0.325037408006841,0.332595352246007
+"t_cell_inflamed","T cell-inflamed program",2,"DLBCL002","Others",0,NA,NA
+"t_cell_inflamed","T cell-inflamed program",2,"DLBCL002","Plasma cells",65,0.0605901656287951,0.0542950499282378
+"t_cell_inflamed","T cell-inflamed program",2,"DLBCL002","T cells CD4",1720,0.239094367600511,0.234884111521666
+"t_cell_inflamed","T cell-inflamed program",2,"DLBCL002","T cells CD8",1177,0.377183947713345,0.357712156838794
+"t_cell_inflamed","T cell-inflamed program",2,"DLBCL002","TFH",209,0.271873693678504,0.274712187375943
+"t_cell_inflamed","T cell-inflamed program",2,"DLBCL002","Tregs",429,0.242992560823202,0.243274193055852
+"t_cell_inflamed","T cell-inflamed program",2,"DLBCL007","B cells",827,0.0234139431585876,0.0231471585183376
+"t_cell_inflamed","T cell-inflamed program",2,"DLBCL007","Monocytes and Macrophages",15,0.0538614224203744,0.0450270253763704
+"t_cell_inflamed","T cell-inflamed program",2,"DLBCL007","NK cells",5,0.430851681070022,0.430986044523162
+"t_cell_inflamed","T cell-inflamed program",2,"DLBCL007","Others",5,0.108654227868202,0.124118239838764
+"t_cell_inflamed","T cell-inflamed program",2,"DLBCL007","Plasma cells",0,NA,NA
+"t_cell_inflamed","T cell-inflamed program",2,"DLBCL007","T cells CD4",131,0.253692955266341,0.252908663389013
+"t_cell_inflamed","T cell-inflamed program",2,"DLBCL007","T cells CD8",302,0.450410805539641,0.458416038110361
+"t_cell_inflamed","T cell-inflamed program",2,"DLBCL007","TFH",14,0.31197296153628,0.316288514978471
+"t_cell_inflamed","T cell-inflamed program",2,"DLBCL007","Tregs",135,0.271297907979131,0.270360643723089
+"t_cell_inflamed","T cell-inflamed program",2,"DLBCL008","B cells",462,0.067689885871704,0.0533713011878951
+"t_cell_inflamed","T cell-inflamed program",2,"DLBCL008","Monocytes and Macrophages",292,0.0847168997180961,0.0805569975875653
+"t_cell_inflamed","T cell-inflamed program",2,"DLBCL008","NK cells",17,0.32307135453809,0.340733502305555
+"t_cell_inflamed","T cell-inflamed program",2,"DLBCL008","Others",0,NA,NA
+"t_cell_inflamed","T cell-inflamed program",2,"DLBCL008","Plasma cells",37,0.0736518880623684,0.0636241487769872
+"t_cell_inflamed","T cell-inflamed program",2,"DLBCL008","T cells CD4",437,0.250073180843718,0.239136409442086
+"t_cell_inflamed","T cell-inflamed program",2,"DLBCL008","T cells CD8",1605,0.557091615345707,0.576068036766727
+"t_cell_inflamed","T cell-inflamed program",2,"DLBCL008","TFH",0,NA,NA
+"t_cell_inflamed","T cell-inflamed program",2,"DLBCL008","Tregs",150,0.260321963335064,0.253496503496504
+"t_cell_inflamed","T cell-inflamed program",2,"DLBCL111","B cells",496,0.0366263851305758,0.0347894463614988
+"t_cell_inflamed","T cell-inflamed program",2,"DLBCL111","Monocytes and Macrophages",46,0.0345876356413664,0.0334916175527529
+"t_cell_inflamed","T cell-inflamed program",2,"DLBCL111","NK cells",122,0.328016782415809,0.327633065624332
+"t_cell_inflamed","T cell-inflamed program",2,"DLBCL111","Others",41,0.116848164084291,0.083549638134791
+"t_cell_inflamed","T cell-inflamed program",2,"DLBCL111","Plasma cells",0,NA,NA
+"t_cell_inflamed","T cell-inflamed program",2,"DLBCL111","T cells CD4",966,0.2506481241055,0.250236662900418
+"t_cell_inflamed","T cell-inflamed program",2,"DLBCL111","T cells CD8",2399,0.426491616547153,0.42921488991358
+"t_cell_inflamed","T cell-inflamed program",2,"DLBCL111","TFH",72,0.348088077618645,0.347734143585672
+"t_cell_inflamed","T cell-inflamed program",2,"DLBCL111","Tregs",258,0.262887209266817,0.263963111124683
+"antigen_presentation","Immune-inflamed / antigen-presentation program",3,"DLBCL002","B cells",1651,0.401663214760478,0.395578220905732
+"antigen_presentation","Immune-inflamed / antigen-presentation program",3,"DLBCL002","Monocytes and Macrophages",214,0.657092438231483,0.654128622469234
+"antigen_presentation","Immune-inflamed / antigen-presentation program",3,"DLBCL002","NK cells",69,0.419450747341387,0.405502794149082
+"antigen_presentation","Immune-inflamed / antigen-presentation program",3,"DLBCL002","Others",0,NA,NA
+"antigen_presentation","Immune-inflamed / antigen-presentation program",3,"DLBCL002","Plasma cells",65,0.507456701847028,0.562891257214401
+"antigen_presentation","Immune-inflamed / antigen-presentation program",3,"DLBCL002","T cells CD4",1720,0.301789929629628,0.297508168687208
+"antigen_presentation","Immune-inflamed / antigen-presentation program",3,"DLBCL002","T cells CD8",1177,0.369412334242244,0.34540568601704
+"antigen_presentation","Immune-inflamed / antigen-presentation program",3,"DLBCL002","TFH",209,0.376640513328004,0.367422970043057
+"antigen_presentation","Immune-inflamed / antigen-presentation program",3,"DLBCL002","Tregs",429,0.397605275395607,0.393959752038355
+"antigen_presentation","Immune-inflamed / antigen-presentation program",3,"DLBCL007","B cells",827,0.477838412254384,0.484639814334138
+"antigen_presentation","Immune-inflamed / antigen-presentation program",3,"DLBCL007","Monocytes and Macrophages",15,0.676030374283649,0.681467004611109
+"antigen_presentation","Immune-inflamed / antigen-presentation program",3,"DLBCL007","NK cells",5,0.377338382141876,0.364812043851345
+"antigen_presentation","Immune-inflamed / antigen-presentation program",3,"DLBCL007","Others",5,0.623028063639417,0.618606284545149
+"antigen_presentation","Immune-inflamed / antigen-presentation program",3,"DLBCL007","Plasma cells",0,NA,NA
+"antigen_presentation","Immune-inflamed / antigen-presentation program",3,"DLBCL007","T cells CD4",131,0.30945099102371,0.301752832320518
+"antigen_presentation","Immune-inflamed / antigen-presentation program",3,"DLBCL007","T cells CD8",302,0.410558866218371,0.405395914129539
+"antigen_presentation","Immune-inflamed / antigen-presentation program",3,"DLBCL007","TFH",14,0.455471384510686,0.463004244663633
+"antigen_presentation","Immune-inflamed / antigen-presentation program",3,"DLBCL007","Tregs",135,0.35412800041621,0.340550279414908
+"antigen_presentation","Immune-inflamed / antigen-presentation program",3,"DLBCL008","B cells",462,0.438091516793382,0.449170916419825
+"antigen_presentation","Immune-inflamed / antigen-presentation program",3,"DLBCL008","Monocytes and Macrophages",292,0.773014499707387,0.797095917183254
+"antigen_presentation","Immune-inflamed / antigen-presentation program",3,"DLBCL008","NK cells",17,0.414148399763607,0.406418908602315
+"antigen_presentation","Immune-inflamed / antigen-presentation program",3,"DLBCL008","Others",0,NA,NA
+"antigen_presentation","Immune-inflamed / antigen-presentation program",3,"DLBCL008","Plasma cells",37,0.459757815653012,0.463340153296485
+"antigen_presentation","Immune-inflamed / antigen-presentation program",3,"DLBCL008","T cells CD4",437,0.378707180122147,0.380126423794546
+"antigen_presentation","Immune-inflamed / antigen-presentation program",3,"DLBCL008","T cells CD8",1605,0.5516465088191,0.557302959049684
+"antigen_presentation","Immune-inflamed / antigen-presentation program",3,"DLBCL008","TFH",0,NA,NA
+"antigen_presentation","Immune-inflamed / antigen-presentation program",3,"DLBCL008","Tregs",150,0.503679013853686,0.507756435704034
+"antigen_presentation","Immune-inflamed / antigen-presentation program",3,"DLBCL111","B cells",496,0.509681107208048,0.51952850642807
+"antigen_presentation","Immune-inflamed / antigen-presentation program",3,"DLBCL111","Monocytes and Macrophages",46,0.676081512943104,0.687925611506398
+"antigen_presentation","Immune-inflamed / antigen-presentation program",3,"DLBCL111","NK cells",122,0.343104261333913,0.332267077900266
+"antigen_presentation","Immune-inflamed / antigen-presentation program",3,"DLBCL111","Others",41,0.592839262133117,0.599856475402327
+"antigen_presentation","Immune-inflamed / antigen-presentation program",3,"DLBCL111","Plasma cells",0,NA,NA
+"antigen_presentation","Immune-inflamed / antigen-presentation program",3,"DLBCL111","T cells CD4",966,0.303163579032195,0.296515711362873
+"antigen_presentation","Immune-inflamed / antigen-presentation program",3,"DLBCL111","T cells CD8",2399,0.406402252554488,0.404708828289614
+"antigen_presentation","Immune-inflamed / antigen-presentation program",3,"DLBCL111","TFH",72,0.448280885780886,0.433199987785141
+"antigen_presentation","Immune-inflamed / antigen-presentation program",3,"DLBCL111","Tregs",258,0.405097999390677,0.392761168962042
+"stromal_fibrotic","Stromal / fibrotic program",4,"DLBCL002","B cells",1651,0.0386033022254553,0.0418816990869393
+"stromal_fibrotic","Stromal / fibrotic program",4,"DLBCL002","Monocytes and Macrophages",214,0.0773068603844428,0.078877454423306
+"stromal_fibrotic","Stromal / fibrotic program",4,"DLBCL002","NK cells",69,0.0385768272610878,0.0409503160594864
+"stromal_fibrotic","Stromal / fibrotic program",4,"DLBCL002","Others",0,NA,NA
+"stromal_fibrotic","Stromal / fibrotic program",4,"DLBCL002","Plasma cells",65,0.0483562792598735,0.0427214706690689
+"stromal_fibrotic","Stromal / fibrotic program",4,"DLBCL002","T cells CD4",1720,0.0508630028953477,0.0435765108254191
+"stromal_fibrotic","Stromal / fibrotic program",4,"DLBCL002","T cells CD8",1177,0.0472314728045937,0.0430573793019208
+"stromal_fibrotic","Stromal / fibrotic program",4,"DLBCL002","TFH",209,0.0320735030624084,0.0334687146914221
+"stromal_fibrotic","Stromal / fibrotic program",4,"DLBCL002","Tregs",429,0.037046828539179,0.0412098818212355
+"stromal_fibrotic","Stromal / fibrotic program",4,"DLBCL007","B cells",827,0.00853544685356411,0
+"stromal_fibrotic","Stromal / fibrotic program",4,"DLBCL007","Monocytes and Macrophages",15,0.0729664803900612,0.083183192353498
+"stromal_fibrotic","Stromal / fibrotic program",4,"DLBCL007","NK cells",5,0.0374660274223593,0.0391944300241244
+"stromal_fibrotic","Stromal / fibrotic program",4,"DLBCL007","Others",5,0.0334717684062662,0.0420649219775857
+"stromal_fibrotic","Stromal / fibrotic program",4,"DLBCL007","Plasma cells",0,NA,NA
+"stromal_fibrotic","Stromal / fibrotic program",4,"DLBCL007","T cells CD4",131,0.0301759475898614,0.0379424069380401
+"stromal_fibrotic","Stromal / fibrotic program",4,"DLBCL007","T cells CD8",302,0.0356305830148336,0.03907228143036
+"stromal_fibrotic","Stromal / fibrotic program",4,"DLBCL007","TFH",14,0.038002390622478,0.0411335389501328
+"stromal_fibrotic","Stromal / fibrotic program",4,"DLBCL007","Tregs",135,0.012093276285416,0
+"stromal_fibrotic","Stromal / fibrotic program",4,"DLBCL008","B cells",462,0.00910486232042405,0
+"stromal_fibrotic","Stromal / fibrotic program",4,"DLBCL008","Monocytes and Macrophages",292,0.0890737769139995,0.0871988273734999
+"stromal_fibrotic","Stromal / fibrotic program",4,"DLBCL008","NK cells",17,0.0304688889327985,0.0346138577579626
+"stromal_fibrotic","Stromal / fibrotic program",4,"DLBCL008","Others",0,NA,NA
+"stromal_fibrotic","Stromal / fibrotic program",4,"DLBCL008","Plasma cells",37,0.0321184775333247,0.0372858582465569
+"stromal_fibrotic","Stromal / fibrotic program",4,"DLBCL008","T cells CD4",437,0.0438124574654908,0.0424771734815403
+"stromal_fibrotic","Stromal / fibrotic program",4,"DLBCL008","T cells CD8",1605,0.0325538749976574,0.0363392066448836
+"stromal_fibrotic","Stromal / fibrotic program",4,"DLBCL008","TFH",0,NA,NA
+"stromal_fibrotic","Stromal / fibrotic program",4,"DLBCL008","Tregs",150,0.0341499984731426,0.0399502244480411
+"stromal_fibrotic","Stromal / fibrotic program",4,"DLBCL111","B cells",496,0.0132376999321287,0
+"stromal_fibrotic","Stromal / fibrotic program",4,"DLBCL111","Monocytes and Macrophages",46,0.0575114082803469,0.0489739518123798
+"stromal_fibrotic","Stromal / fibrotic program",4,"DLBCL111","NK cells",122,0.037198001368665,0.0384615384615385
+"stromal_fibrotic","Stromal / fibrotic program",4,"DLBCL111","Others",41,0.0476595510145409,0.0429810364308181
+"stromal_fibrotic","Stromal / fibrotic program",4,"DLBCL111","Plasma cells",0,NA,NA
+"stromal_fibrotic","Stromal / fibrotic program",4,"DLBCL111","T cells CD4",966,0.0424212045153757,0.0421259962744679
+"stromal_fibrotic","Stromal / fibrotic program",4,"DLBCL111","T cells CD8",2399,0.0455373165290507,0.0428436192628332
+"stromal_fibrotic","Stromal / fibrotic program",4,"DLBCL111","TFH",72,0.0453743854398876,0.0415457904540874
+"stromal_fibrotic","Stromal / fibrotic program",4,"DLBCL111","Tregs",258,0.0393578274404922,0.0423015848780041
+"immune_cold_exclusion","Immune-cold / exclusion-associated program",5,"DLBCL002","B cells",1651,0.0371070744326069,0.034201606254008
+"immune_cold_exclusion","Immune-cold / exclusion-associated program",5,"DLBCL002","Monocytes and Macrophages",214,0.0645233536410127,0.0640898402907137
+"immune_cold_exclusion","Immune-cold / exclusion-associated program",5,"DLBCL002","NK cells",69,0.0358222879582287,0.0329648517421444
+"immune_cold_exclusion","Immune-cold / exclusion-associated program",5,"DLBCL002","Others",0,NA,NA
+"immune_cold_exclusion","Immune-cold / exclusion-associated program",5,"DLBCL002","Plasma cells",65,0.0339864368080693,0.0332854918007757
+"immune_cold_exclusion","Immune-cold / exclusion-associated program",5,"DLBCL002","T cells CD4",1720,0.0356931329054819,0.034797080648609
+"immune_cold_exclusion","Immune-cold / exclusion-associated program",5,"DLBCL002","T cells CD8",1177,0.0393277219528551,0.0362781323480014
+"immune_cold_exclusion","Immune-cold / exclusion-associated program",5,"DLBCL002","TFH",209,0.0389908977381032,0.0342932176993312
+"immune_cold_exclusion","Immune-cold / exclusion-associated program",5,"DLBCL002","Tregs",429,0.0381196149358118,0.0361407151800165
+"immune_cold_exclusion","Immune-cold / exclusion-associated program",5,"DLBCL007","B cells",827,0.0248532878335975,0.01047424191529
+"immune_cold_exclusion","Immune-cold / exclusion-associated program",5,"DLBCL007","Monocytes and Macrophages",15,0.050169481173848,0.0546614957095306
+"immune_cold_exclusion","Immune-cold / exclusion-associated program",5,"DLBCL007","NK cells",5,0.0628423977768956,0.0570586618621554
+"immune_cold_exclusion","Immune-cold / exclusion-associated program",5,"DLBCL007","Others",5,0.0488869209393227,0.0482028888142425
+"immune_cold_exclusion","Immune-cold / exclusion-associated program",5,"DLBCL007","Plasma cells",0,NA,NA
+"immune_cold_exclusion","Immune-cold / exclusion-associated program",5,"DLBCL007","T cells CD4",131,0.0472924855070927,0.0425077106299814
+"immune_cold_exclusion","Immune-cold / exclusion-associated program",5,"DLBCL007","T cells CD8",302,0.0491868018039972,0.0454087397318839
+"immune_cold_exclusion","Immune-cold / exclusion-associated program",5,"DLBCL007","TFH",14,0.0544466450579988,0.0492029804256878
+"immune_cold_exclusion","Immune-cold / exclusion-associated program",5,"DLBCL007","Tregs",135,0.0428049388748079,0.0388890585397136
+"immune_cold_exclusion","Immune-cold / exclusion-associated program",5,"DLBCL008","B cells",462,0.0478524056332711,0.0442864995266742
+"immune_cold_exclusion","Immune-cold / exclusion-associated program",5,"DLBCL008","Monocytes and Macrophages",292,0.0808229949747566,0.079587443124561
+"immune_cold_exclusion","Immune-cold / exclusion-associated program",5,"DLBCL008","NK cells",17,0.0400647387546951,0.0342626805508902
+"immune_cold_exclusion","Immune-cold / exclusion-associated program",5,"DLBCL008","Others",0,NA,NA
+"immune_cold_exclusion","Immune-cold / exclusion-associated program",5,"DLBCL008","Plasma cells",37,0.051840523456244,0.0467371056890707
+"immune_cold_exclusion","Immune-cold / exclusion-associated program",5,"DLBCL008","T cells CD4",437,0.0423923053653351,0.0400189330320335
+"immune_cold_exclusion","Immune-cold / exclusion-associated program",5,"DLBCL008","T cells CD8",1605,0.0528872398194522,0.0493327633065625
+"immune_cold_exclusion","Immune-cold / exclusion-associated program",5,"DLBCL008","TFH",0,NA,NA
+"immune_cold_exclusion","Immune-cold / exclusion-associated program",5,"DLBCL008","Tregs",150,0.044830773302389,0.0408358017528323
+"immune_cold_exclusion","Immune-cold / exclusion-associated program",5,"DLBCL111","B cells",496,0.0341999131661408,0.0335908632851864
+"immune_cold_exclusion","Immune-cold / exclusion-associated program",5,"DLBCL111","Monocytes and Macrophages",46,0.0633015171651967,0.0594787308761108
+"immune_cold_exclusion","Immune-cold / exclusion-associated program",5,"DLBCL111","NK cells",122,0.0435483515696845,0.0368736067426024
+"immune_cold_exclusion","Immune-cold / exclusion-associated program",5,"DLBCL111","Others",41,0.0541334264840496,0.0509817693223806
+"immune_cold_exclusion","Immune-cold / exclusion-associated program",5,"DLBCL111","Plasma cells",0,NA,NA
+"immune_cold_exclusion","Immune-cold / exclusion-associated program",5,"DLBCL111","T cells CD4",966,0.0517332961323847,0.0520734723791492
+"immune_cold_exclusion","Immune-cold / exclusion-associated program",5,"DLBCL111","T cells CD8",2399,0.0547522797623368,0.0543713927993404
+"immune_cold_exclusion","Immune-cold / exclusion-associated program",5,"DLBCL111","TFH",72,0.0519212107640055,0.0480043973493755
+"immune_cold_exclusion","Immune-cold / exclusion-associated program",5,"DLBCL111","Tregs",258,0.0528840679648032,0.0525162610315449
+"proliferative_cycling","Proliferative / cycling program",6,"DLBCL002","B cells",1651,0.0677301375039149,0.0154517971111857
+"proliferative_cycling","Proliferative / cycling program",6,"DLBCL002","Monocytes and Macrophages",214,0.00796991034921084,0
+"proliferative_cycling","Proliferative / cycling program",6,"DLBCL002","NK cells",69,0.0127468253536224,0
+"proliferative_cycling","Proliferative / cycling program",6,"DLBCL002","Others",0,NA,NA
+"proliferative_cycling","Proliferative / cycling program",6,"DLBCL002","Plasma cells",65,0.0236329340796926,0.0224906098268544
+"proliferative_cycling","Proliferative / cycling program",6,"DLBCL002","T cells CD4",1720,0.0116286881596113,0.00742052707118213
+"proliferative_cycling","Proliferative / cycling program",6,"DLBCL002","T cells CD8",1177,0.0152782646410514,0.0101994075793203
+"proliferative_cycling","Proliferative / cycling program",6,"DLBCL002","TFH",209,0.0133322413989345,0.00367972638714997
+"proliferative_cycling","Proliferative / cycling program",6,"DLBCL002","Tregs",429,0.0146311735312254,0.0120163679115645
+"proliferative_cycling","Proliferative / cycling program",6,"DLBCL007","B cells",827,0.136408555881265,0.0594252908663389
+"proliferative_cycling","Proliferative / cycling program",6,"DLBCL007","Monocytes and Macrophages",15,0.00556794006575666,0
+"proliferative_cycling","Proliferative / cycling program",6,"DLBCL007","NK cells",5,0.0117873392982563,0.00885577304791274
+"proliferative_cycling","Proliferative / cycling program",6,"DLBCL007","Others",5,0.0276177970501115,0.0337435490273919
+"proliferative_cycling","Proliferative / cycling program",6,"DLBCL007","Plasma cells",0,NA,NA
+"proliferative_cycling","Proliferative / cycling program",6,"DLBCL007","T cells CD4",131,0.0190494694811505,0.0172382202949889
+"proliferative_cycling","Proliferative / cycling program",6,"DLBCL007","T cells CD8",302,0.0315478067148156,0.015543408556509
+"proliferative_cycling","Proliferative / cycling program",6,"DLBCL007","TFH",14,0.0150297300952323,0.00511497236388064
+"proliferative_cycling","Proliferative / cycling program",6,"DLBCL007","Tregs",135,0.0208594736979016,0.0158029743182582
+"proliferative_cycling","Proliferative / cycling program",6,"DLBCL008","B cells",462,0.13773602340494,0.0863208843558189
+"proliferative_cycling","Proliferative / cycling program",6,"DLBCL008","Monocytes and Macrophages",292,0.0101872763833642,0
+"proliferative_cycling","Proliferative / cycling program",6,"DLBCL008","NK cells",17,0.0133267708402566,0.0126729166030476
+"proliferative_cycling","Proliferative / cycling program",6,"DLBCL008","Others",0,NA,NA
+"proliferative_cycling","Proliferative / cycling program",6,"DLBCL008","Plasma cells",37,0.00907448505701781,0
+"proliferative_cycling","Proliferative / cycling program",6,"DLBCL008","T cells CD4",437,0.0134114683693491,0.0105963905090543
+"proliferative_cycling","Proliferative / cycling program",6,"DLBCL008","T cells CD8",1605,0.0292899960777363,0.0136348367789416
+"proliferative_cycling","Proliferative / cycling program",6,"DLBCL008","TFH",0,NA,NA
+"proliferative_cycling","Proliferative / cycling program",6,"DLBCL008","Tregs",150,0.0180763632292017,0.0112834763489785
+"proliferative_cycling","Proliferative / cycling program",6,"DLBCL111","B cells",496,0.0412224414548686,0.0126118423061655
+"proliferative_cycling","Proliferative / cycling program",6,"DLBCL111","Monocytes and Macrophages",46,0.0190385843509064,0.00106880019543776
+"proliferative_cycling","Proliferative / cycling program",6,"DLBCL111","NK cells",122,0.0167491253109408,0
+"proliferative_cycling","Proliferative / cycling program",6,"DLBCL111","Others",41,0.0344105250378549,0.0381867041255688
+"proliferative_cycling","Proliferative / cycling program",6,"DLBCL111","Plasma cells",0,NA,NA
+"proliferative_cycling","Proliferative / cycling program",6,"DLBCL111","T cells CD4",966,0.0201848338358686,0.0178107918282591
+"proliferative_cycling","Proliferative / cycling program",6,"DLBCL111","T cells CD8",2399,0.0218547586774159,0.0166427459003878
+"proliferative_cycling","Proliferative / cycling program",6,"DLBCL111","TFH",72,0.0279624851131401,0.0295981311265154
+"proliferative_cycling","Proliferative / cycling program",6,"DLBCL111","Tregs",258,0.0184949186421716,0.0145356826579534

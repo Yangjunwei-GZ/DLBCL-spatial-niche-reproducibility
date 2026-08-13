@@ -1,0 +1,3 @@
+"dataset_id","sample_count","matrix_vector_spearman","sign_concordance_n","sign_concordance_denominator","structural_replication_status","comparison_authority"
+"GSE10846",420,0.935714285714286,12,15,"SUPPORTIVE_STRUCTURAL_REPLICATION","GSE31312_FROZEN_15_EDGE_PEARSON_VECTOR"
+"GSE181063",1310,0.982142857142857,13,15,"SUPPORTIVE_STRUCTURAL_REPLICATION","GSE31312_FROZEN_15_EDGE_PEARSON_VECTOR"

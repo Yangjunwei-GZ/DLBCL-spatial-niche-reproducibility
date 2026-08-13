@@ -1,0 +1,7 @@
+"process","seed","purpose","frozen_date","modification_requires_amendment"
+"consensus_clustering",31312041,"ConsensusClusterPlus resampling for k=2 through k=6","2026-07-30",TRUE
+"gap_statistic",31312052,"Reference datasets for gap statistic with B=500","2026-07-30",TRUE
+"bootstrap_stability",31312063,"Sample bootstrap stability with 1000 replicates","2026-07-30",TRUE
+"synthetic_unit_tests",31312074,"Synthetic software tests only","2026-07-30",TRUE
+"optional_multimodality",31312085,"Optional formal multimodality procedures if available","2026-07-30",TRUE
+"plotting_jitter",31312096,"Display-only jitter generated from frozen source tables","2026-07-30",TRUE

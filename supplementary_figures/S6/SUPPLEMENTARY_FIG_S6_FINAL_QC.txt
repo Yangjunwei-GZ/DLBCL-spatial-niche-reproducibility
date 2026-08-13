@@ -1,0 +1,111 @@
+SUPPLEMENTARY FIG. S6 FINAL QUALITY CONTROL
+============================================================
+
+Controlling status: SUPPLEMENTARY_FIG_S6_EXPRESSION_ONLY_PASS
+Figure title: Supplementary Fig. S6 | Spatial expression support for curated ligand-receptor axes
+Plotting backend: Python only
+Scientific rerun performed: NO
+New statistical test performed: NO
+
+AUTHORITY AND SCOPE
+------------------------------------------------------------
+PASS - All 10 displayed ligand-receptor axes are pre-existing curated axes registered by the historical generating script and present in the frozen LR authority.
+PASS - Exact ligand and receptor symbols were retained without synonym substitution.
+PASS - Spatial scope is limited to the five primary DLBCL capture areas, Cap.area3-Cap.area7.
+PASS - The final source copies reconcile by parsed values, column order, and row order with the frozen source CSV files.
+PASS - S22B gene detection contains 50 area-axis rows: 45 tested and 5 not tested/not evaluable.
+PASS - S22C contains frozen same-spot Spearman correlations and original BH FDR values for all 45 tested combinations.
+PASS - S22D contains frozen k=6, 1,000-permutation neighborhood results and original BH FDR values for all 45 tested combinations.
+PASS - The representative map source contains 1,723 spots for MIF-CD74 and 1,723 spots for CXCL9-CXCR3 in GSM8500537_Cap.area4_DLBCL_V2.
+PASS - S22E historical niche-score association rows were excluded in full.
+PASS - No historical composite LR-score map is displayed; separate frozen ligand and receptor expression columns are shown.
+PASS - No current canonical UCell LR-program association was available or generated.
+
+FINAL AXES
+------------------------------------------------------------
+MIF-CD74
+CXCL9-CXCR3
+CXCL10-CXCR3
+HLA-DRA-CD4
+CD40LG-CD40
+LGALS9-HAVCR2
+ICAM1-ITGAL
+IFNG-IFNGR1
+CD70-CD27
+CD86-CD28
+
+MISSINGNESS
+------------------------------------------------------------
+PASS - Cap.area3 LGALS9-HAVCR2 is N/E because LGALS9 was unavailable.
+PASS - Cap.area4-Cap.area7 HLA-DRA-CD4 are N/E because HLA-DRA was unavailable.
+PASS - No N/E value was replaced by zero.
+PASS - No imputation, substitution, or alternative gene was used.
+PASS - N/E is defined in the legend as not evaluable from frozen source data and not as absence of signaling or a nonsignificant result.
+
+FIGURE CONTENT
+------------------------------------------------------------
+PASS - Panel A lists all 10 axes and tested/N/E scope without duplicating an axis.
+PASS - Panel B displays all frozen same-spot results, including positive, negative, nonsignificant, and N/E combinations.
+PASS - Panel C displays all frozen neighborhood results, including nonsignificant and N/E combinations.
+PASS - Panel D displays separate frozen ligand and receptor expression maps for two prespecified representative axes.
+PASS - Asterisks are based only on frozen BH FDR < 0.05 values.
+PASS - No significance value was invented, recalculated, selectively omitted, or reassigned.
+PASS - Color bars and labels match the displayed frozen metrics.
+
+INTERPRETATION SCAN
+------------------------------------------------------------
+Scientific assertion hits for active signaling, confirmed interaction/communication, receptor activation, causal signaling, mediated-by claims, or demonstrated cell-cell communication: 0
+Raw wording hits in the legend/figure are limited to explicit negation or interpretation boundaries, including "does not establish" and "not evidence of" statements.
+PASS - Same-spot results are described as expression concordance/compatibility, not same-cell interaction.
+PASS - Neighborhood results are described as proximity/support, not physical contact.
+PASS - Final interpretation remains expression-based spatial support only.
+
+LEGACY FRAMEWORK SCAN
+------------------------------------------------------------
+Scientific assertion hits for niche score, AddModuleScore, ecosystem assignment, centroid, projected ecosystem, immune-depleted class, Mac-rich inflammatory class, or k=4 taxonomy: 0
+Raw legacy-term hits occur only in the historical audit, exclusion log, compatibility report, main-text wording audit, and workbook Excluded_historical/README provenance fields. They are explicitly marked excluded, incompatible, historical, or not included.
+PASS - No old niche-score or class-dependent association enters the final figure panels or legend.
+PASS - Final k remains NOT_SELECTED and taxonomy remains NOT_ASSIGNED.
+
+WORKBOOK QC
+------------------------------------------------------------
+PASS - Workbook authored with artifact-tool and contains 10 named sheets.
+PASS - Final workbook imports with artifact-tool after compatibility normalization.
+PASS - Final workbook opens with openpyxl in normal and read-only modes.
+PASS - Final workbook opens with R openxlsx and all 10 sheets are readable.
+PASS - Data-row counts: README 11; Authority_inventory 152; LR_axes 10; Gene_detection 50; Same_spot_correlation 50; Neighborhood_support 50; Representative_maps 3,446; Area_summary 5; Excluded_historical 4; Plotting_parameters 12.
+PASS - Formula-error scan returned zero matches.
+PASS - Final previews of README, Authority_inventory, Representative_maps, and Excluded_historical were visually checked; headers, values, and wrapped text are legible without clipping.
+PASS - OOXML compatibility normalization preserved every sheet name, dimension, cell value, and formula.
+
+PUBLICATION FILE QC
+------------------------------------------------------------
+PASS - PDF: one page, 183.00 x 216.00 mm, PDF 1.4.
+PASS - PDF text uses embedded subset Arial and Arial Bold fonts with Unicode mapping.
+PASS - PDF was rendered at 150 dpi after final generation and visually inspected.
+PASS - SVG retains vector text/axes where practical.
+PASS - PNG: 2,161 x 2,551 pixels, RGBA, approximately 300 dpi.
+PASS - TIFF: 4,322 x 5,102 pixels, RGB, 600 x 600 dpi, LZW compression, 182.96 x 215.98 mm by raster metadata.
+PASS - TIFF was exported directly at 600 dpi, not post-hoc upscaled.
+
+VISUAL QC
+------------------------------------------------------------
+Round 1: panel structure, axis labels, gene maps, heatmap readability, N/E clarity, and density reviewed. Panel A overlaps, Panel C annotation clipping, Panel D title overlap, and the right colorbar boundary were corrected.
+Round 2: final font, spacing, 183-mm readability, color/legend consistency, panel labels, and cropping reviewed. PASS - no remaining clipping, overlap, missing panel, or unreadable label.
+Workbook visual QC: a final post-normalization render identified wrapped-text row-height clipping; formatting order was corrected and the workbook was regenerated and reverified. PASS.
+
+PROHIBITED ANALYSES CONFIRMATION
+------------------------------------------------------------
+NO CellChat, CellPhoneDB, NicheNet, LIANA, or NATMI rerun.
+NO de novo LR discovery or ligand/receptor ranking.
+NO new correlation, neighborhood, permutation, spatial statistic, P-value, or FDR calculation.
+NO UCell or AddModuleScore rerun.
+NO pathway, differential-expression, clustering, or taxonomy analysis.
+NO raw expression matrix read for this S6 build.
+
+FINAL INTERPRETATION
+------------------------------------------------------------
+Expression-based spatial support does not establish direct ligand-receptor signaling, physical cell-cell contact, receptor activation, functional communication, or causality.
+
+FINAL STATUS: PASS
+CONTROLLING STATUS: SUPPLEMENTARY_FIG_S6_EXPRESSION_ONLY_PASS

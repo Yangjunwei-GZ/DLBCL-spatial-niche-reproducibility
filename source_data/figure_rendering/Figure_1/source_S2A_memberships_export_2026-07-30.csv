@@ -1,0 +1,133 @@
+normalized_program_name,historical_program_name,gene_symbol,membership_index,source_workbook,source_sheet,source_excel_row
+Macrophage-rich program,Macrophage-rich niche,CD68,1,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,4
+Macrophage-rich program,Macrophage-rich niche,CD163,2,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,5
+Macrophage-rich program,Macrophage-rich niche,CSF1R,3,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,6
+Macrophage-rich program,Macrophage-rich niche,FCGR1A,4,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,7
+Macrophage-rich program,Macrophage-rich niche,FCGR3A,5,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,8
+Macrophage-rich program,Macrophage-rich niche,LYZ,6,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,9
+Macrophage-rich program,Macrophage-rich niche,AIF1,7,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,10
+Macrophage-rich program,Macrophage-rich niche,TYROBP,8,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,11
+Macrophage-rich program,Macrophage-rich niche,LST1,9,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,12
+Macrophage-rich program,Macrophage-rich niche,MSR1,10,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,13
+Macrophage-rich program,Macrophage-rich niche,MRC1,11,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,14
+Macrophage-rich program,Macrophage-rich niche,C1QA,12,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,15
+Macrophage-rich program,Macrophage-rich niche,C1QB,13,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,16
+Macrophage-rich program,Macrophage-rich niche,C1QC,14,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,17
+Macrophage-rich program,Macrophage-rich niche,APOE,15,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,18
+Macrophage-rich program,Macrophage-rich niche,SPP1,16,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,19
+Macrophage-rich program,Macrophage-rich niche,MARCO,17,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,20
+Macrophage-rich program,Macrophage-rich niche,CTSS,18,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,21
+Macrophage-rich program,Macrophage-rich niche,MS4A7,19,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,22
+Macrophage-rich program,Macrophage-rich niche,VSIG4,20,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,23
+Macrophage-rich program,Macrophage-rich niche,LGALS3,21,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,24
+Macrophage-rich program,Macrophage-rich niche,TREM2,22,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,25
+T cell-inflamed program,T cell-inflamed niche,CD3D,1,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,26
+T cell-inflamed program,T cell-inflamed niche,CD3E,2,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,27
+T cell-inflamed program,T cell-inflamed niche,CD2,3,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,28
+T cell-inflamed program,T cell-inflamed niche,TRAC,4,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,29
+T cell-inflamed program,T cell-inflamed niche,TRBC1,5,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,30
+T cell-inflamed program,T cell-inflamed niche,TRBC2,6,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,31
+T cell-inflamed program,T cell-inflamed niche,CD8A,7,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,32
+T cell-inflamed program,T cell-inflamed niche,CD8B,8,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,33
+T cell-inflamed program,T cell-inflamed niche,GZMB,9,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,34
+T cell-inflamed program,T cell-inflamed niche,GZMA,10,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,35
+T cell-inflamed program,T cell-inflamed niche,PRF1,11,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,36
+T cell-inflamed program,T cell-inflamed niche,NKG7,12,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,37
+T cell-inflamed program,T cell-inflamed niche,GNLY,13,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,38
+T cell-inflamed program,T cell-inflamed niche,CCL5,14,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,39
+T cell-inflamed program,T cell-inflamed niche,CXCL9,15,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,40
+T cell-inflamed program,T cell-inflamed niche,CXCL10,16,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,41
+T cell-inflamed program,T cell-inflamed niche,IFNG,17,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,42
+T cell-inflamed program,T cell-inflamed niche,LCK,18,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,43
+T cell-inflamed program,T cell-inflamed niche,ZAP70,19,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,44
+T cell-inflamed program,T cell-inflamed niche,IL7R,20,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,45
+T cell-inflamed program,T cell-inflamed niche,CXCR3,21,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,46
+T cell-inflamed program,T cell-inflamed niche,PDCD1,22,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,47
+Immune-inflamed / antigen-presentation program,Immune-inflamed / antigen-presentation niche,HLA-DRA,1,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,48
+Immune-inflamed / antigen-presentation program,Immune-inflamed / antigen-presentation niche,HLA-DRB1,2,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,49
+Immune-inflamed / antigen-presentation program,Immune-inflamed / antigen-presentation niche,HLA-DPA1,3,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,50
+Immune-inflamed / antigen-presentation program,Immune-inflamed / antigen-presentation niche,HLA-DPB1,4,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,51
+Immune-inflamed / antigen-presentation program,Immune-inflamed / antigen-presentation niche,HLA-DQA1,5,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,52
+Immune-inflamed / antigen-presentation program,Immune-inflamed / antigen-presentation niche,HLA-DQB1,6,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,53
+Immune-inflamed / antigen-presentation program,Immune-inflamed / antigen-presentation niche,HLA-A,7,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,54
+Immune-inflamed / antigen-presentation program,Immune-inflamed / antigen-presentation niche,HLA-B,8,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,55
+Immune-inflamed / antigen-presentation program,Immune-inflamed / antigen-presentation niche,HLA-C,9,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,56
+Immune-inflamed / antigen-presentation program,Immune-inflamed / antigen-presentation niche,B2M,10,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,57
+Immune-inflamed / antigen-presentation program,Immune-inflamed / antigen-presentation niche,TAP1,11,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,58
+Immune-inflamed / antigen-presentation program,Immune-inflamed / antigen-presentation niche,TAP2,12,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,59
+Immune-inflamed / antigen-presentation program,Immune-inflamed / antigen-presentation niche,PSMB8,13,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,60
+Immune-inflamed / antigen-presentation program,Immune-inflamed / antigen-presentation niche,PSMB9,14,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,61
+Immune-inflamed / antigen-presentation program,Immune-inflamed / antigen-presentation niche,STAT1,15,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,62
+Immune-inflamed / antigen-presentation program,Immune-inflamed / antigen-presentation niche,IRF1,16,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,63
+Immune-inflamed / antigen-presentation program,Immune-inflamed / antigen-presentation niche,GBP1,17,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,64
+Immune-inflamed / antigen-presentation program,Immune-inflamed / antigen-presentation niche,GBP5,18,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,65
+Immune-inflamed / antigen-presentation program,Immune-inflamed / antigen-presentation niche,CXCL9,19,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,66
+Immune-inflamed / antigen-presentation program,Immune-inflamed / antigen-presentation niche,CXCL10,20,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,67
+Immune-inflamed / antigen-presentation program,Immune-inflamed / antigen-presentation niche,CD74,21,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,68
+Immune-inflamed / antigen-presentation program,Immune-inflamed / antigen-presentation niche,CIITA,22,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,69
+Stromal / fibrotic program,Stromal/fibrotic niche,COL1A1,1,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,70
+Stromal / fibrotic program,Stromal/fibrotic niche,COL1A2,2,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,71
+Stromal / fibrotic program,Stromal/fibrotic niche,COL3A1,3,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,72
+Stromal / fibrotic program,Stromal/fibrotic niche,COL6A1,4,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,73
+Stromal / fibrotic program,Stromal/fibrotic niche,FN1,5,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,74
+Stromal / fibrotic program,Stromal/fibrotic niche,DCN,6,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,75
+Stromal / fibrotic program,Stromal/fibrotic niche,LUM,7,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,76
+Stromal / fibrotic program,Stromal/fibrotic niche,SPARC,8,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,77
+Stromal / fibrotic program,Stromal/fibrotic niche,VIM,9,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,78
+Stromal / fibrotic program,Stromal/fibrotic niche,ACTA2,10,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,79
+Stromal / fibrotic program,Stromal/fibrotic niche,TAGLN,11,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,80
+Stromal / fibrotic program,Stromal/fibrotic niche,PDGFRB,12,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,81
+Stromal / fibrotic program,Stromal/fibrotic niche,CXCL12,13,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,82
+Stromal / fibrotic program,Stromal/fibrotic niche,THY1,14,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,83
+Stromal / fibrotic program,Stromal/fibrotic niche,FAP,15,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,84
+Stromal / fibrotic program,Stromal/fibrotic niche,MMP2,16,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,85
+Stromal / fibrotic program,Stromal/fibrotic niche,MMP9,17,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,86
+Stromal / fibrotic program,Stromal/fibrotic niche,TIMP1,18,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,87
+Stromal / fibrotic program,Stromal/fibrotic niche,LOX,19,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,88
+Stromal / fibrotic program,Stromal/fibrotic niche,POSTN,20,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,89
+Stromal / fibrotic program,Stromal/fibrotic niche,VCAN,21,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,90
+Stromal / fibrotic program,Stromal/fibrotic niche,PECAM1,22,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,91
+Immune-cold / exclusion-associated program,Immune-cold / excluded niche,TGFB1,1,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,114
+Immune-cold / exclusion-associated program,Immune-cold / excluded niche,TGFB2,2,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,115
+Immune-cold / exclusion-associated program,Immune-cold / excluded niche,TGFBR1,3,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,116
+Immune-cold / exclusion-associated program,Immune-cold / excluded niche,TGFBR2,4,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,117
+Immune-cold / exclusion-associated program,Immune-cold / excluded niche,SMAD3,5,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,118
+Immune-cold / exclusion-associated program,Immune-cold / excluded niche,VEGFA,6,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,119
+Immune-cold / exclusion-associated program,Immune-cold / excluded niche,CA9,7,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,120
+Immune-cold / exclusion-associated program,Immune-cold / excluded niche,HIF1A,8,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,121
+Immune-cold / exclusion-associated program,Immune-cold / excluded niche,LOX,9,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,122
+Immune-cold / exclusion-associated program,Immune-cold / excluded niche,CXCL12,10,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,123
+Immune-cold / exclusion-associated program,Immune-cold / excluded niche,CXCR4,11,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,124
+Immune-cold / exclusion-associated program,Immune-cold / excluded niche,FN1,12,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,125
+Immune-cold / exclusion-associated program,Immune-cold / excluded niche,COL1A1,13,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,126
+Immune-cold / exclusion-associated program,Immune-cold / excluded niche,COL3A1,14,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,127
+Immune-cold / exclusion-associated program,Immune-cold / excluded niche,ACTA2,15,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,128
+Immune-cold / exclusion-associated program,Immune-cold / excluded niche,PDGFRB,16,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,129
+Immune-cold / exclusion-associated program,Immune-cold / excluded niche,MMP2,17,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,130
+Immune-cold / exclusion-associated program,Immune-cold / excluded niche,MMP9,18,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,131
+Immune-cold / exclusion-associated program,Immune-cold / excluded niche,CD274,19,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,132
+Immune-cold / exclusion-associated program,Immune-cold / excluded niche,LGALS9,20,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,133
+Immune-cold / exclusion-associated program,Immune-cold / excluded niche,HAVCR2,21,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,134
+Immune-cold / exclusion-associated program,Immune-cold / excluded niche,ENTPD1,22,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,135
+Proliferative / cycling program,Proliferative/cycling program,MKI67,1,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,92
+Proliferative / cycling program,Proliferative/cycling program,TOP2A,2,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,93
+Proliferative / cycling program,Proliferative/cycling program,PCNA,3,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,94
+Proliferative / cycling program,Proliferative/cycling program,BIRC5,4,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,95
+Proliferative / cycling program,Proliferative/cycling program,AURKA,5,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,96
+Proliferative / cycling program,Proliferative/cycling program,AURKB,6,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,97
+Proliferative / cycling program,Proliferative/cycling program,CDK1,7,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,98
+Proliferative / cycling program,Proliferative/cycling program,CCNB1,8,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,99
+Proliferative / cycling program,Proliferative/cycling program,CCNB2,9,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,100
+Proliferative / cycling program,Proliferative/cycling program,MCM2,10,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,101
+Proliferative / cycling program,Proliferative/cycling program,MCM3,11,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,102
+Proliferative / cycling program,Proliferative/cycling program,MCM4,12,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,103
+Proliferative / cycling program,Proliferative/cycling program,MCM6,13,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,104
+Proliferative / cycling program,Proliferative/cycling program,MCM7,14,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,105
+Proliferative / cycling program,Proliferative/cycling program,STMN1,15,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,106
+Proliferative / cycling program,Proliferative/cycling program,UBE2C,16,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,107
+Proliferative / cycling program,Proliferative/cycling program,TYMS,17,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,108
+Proliferative / cycling program,Proliferative/cycling program,TK1,18,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,109
+Proliferative / cycling program,Proliferative/cycling program,CDC20,19,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,110
+Proliferative / cycling program,Proliferative/cycling program,CENPF,20,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,111
+Proliferative / cycling program,Proliferative/cycling program,HMGB2,21,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,112
+Proliferative / cycling program,Proliferative/cycling program,RRM2,22,D:/DLBCL_spatial_niche_project/05_manuscript/Manuscript 12-Cancer Medicine/Supplementary_table.xlsx,S2A_Signature_genes,113

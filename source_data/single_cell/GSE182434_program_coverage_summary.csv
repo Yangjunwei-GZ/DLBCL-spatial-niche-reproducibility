@@ -1,0 +1,7 @@
+Program,Canonical_n,Detected_n,Missing_genes,Coverage_fraction
+Macrophage-rich program,22,22,,1.000000
+T cell-inflamed program,22,22,,1.000000
+Immune-inflamed / antigen-presentation program,22,22,,1.000000
+Stromal / fibrotic program,22,22,,1.000000
+Immune-cold / exclusion-associated program,22,22,,1.000000
+Proliferative / cycling program,22,22,,1.000000
