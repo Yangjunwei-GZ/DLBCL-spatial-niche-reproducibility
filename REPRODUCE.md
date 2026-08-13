@@ -10,17 +10,21 @@ Download raw or processed public data from GEO using the accessions in `DATA_SOU
 
 ## 3. Environment setup
 
-The validated R runtime was R 4.5.1. `environment/renv.lock` covers the core environment but does not contain every direct package used across the current scripts. Exact version evidence for the uncovered packages is retained in session and package records. Consequently, exact one-lock restoration is PARTIAL; do not treat `renv::restore()` alone as proof of the complete historical environment.
+The validated R runtime was R 4.5.1. `environment/renv.lock` covers the core environment but not every direct package used across the current scripts. Additional version evidence is summarized in `environment/README.md` and `environment/package_versions.csv`. Exact one-lock restoration is therefore PARTIAL.
 
 ```r
 renv::restore(lockfile = "environment/renv.lock")
 ```
 
-Python was used for final supplementary-figure engineering. Exact cross-platform reconstruction of every rendering environment is not claimed; the frozen figures, source workbooks, scripts, and hashes are supplied.
+Python was used for final supplementary-figure engineering. Exact cross-platform reconstruction of every rendering environment is not claimed; released figures and source workbooks remain directly inspectable.
+
+The current figure scripts use three configurable roots: the repository root, `source_data/`, and `supplementary_tables/`. Some retained analysis and final-render scripts also expect raw GEO files or project-derived authorities that are not redistributed. For those components, use the released derived authority rather than treating the package as a one-command raw-to-figure build.
+
+The source workbooks are immutable scientific artifacts. Embedded provenance-path strings record where frozen inputs were produced; they are not required to locate public inputs and do not replace the relative paths in `source_data/SOURCE_DATA_INDEX.csv`.
 
 ## 4. Program definitions
 
-The canonical authority is `source_data/figure_rendering/Figure_1/canonical_programs_v2.csv`: six programs, 22 memberships per program, 132 memberships, 121 unique genes, and 11 duplicated cross-program memberships.
+The canonical public definition is `source_data/figure_rendering/Figure_1/canonical_programs_v2.csv`: six programs, 22 memberships per program, 132 memberships, 121 unique genes, and 11 duplicated cross-program memberships.
 
 ## 5. Bulk scoring
 
@@ -32,7 +36,7 @@ Use the frozen GSE31312 score matrix, COO metadata, PCA coordinates, and Kruskal
 
 ## 7. Candidate-k adjudication
 
-Use `source_data/figure_rendering/Figure_3/` and the current model-form adjudication scripts. Candidate k = 2-6 were checked against prespecified criteria; no candidate passed all criteria.
+Use `source_data/figure_rendering/Figure_3/` and the current model-form adjudication scripts. Candidate k = 2-6 were checked against prespecified criteria; no candidate passed all criteria. Figure 3 is reproduced from the released derived authority.
 
 ## 8. External continuous replication
 
@@ -48,7 +52,7 @@ GSE276542 workflow scripts are under `code/spatial/`. Final authority tables for
 
 ## 11. Spatial robustness analyses
 
-Matched-random-gene-set summaries, depth-adjusted and residual-permutation outputs, matching-balance summaries, and direct-source/core sensitivity scripts are retained. Replicate-level matched membership partitions are intentionally excluded as redundant; seed and input registries remain under `environment/`.
+Current matched-null, depth-adjusted, residual-permutation, matching-balance, and direct-source/core scripts are retained. Their display-ready values are released in the S5 source workbook and final Supplementary Tables. Large detailed intermediates and replicate-level matched membership partitions are reserved for the associated Zenodo archival release.
 
 ## 12. LR expression-only support
 
@@ -56,16 +60,16 @@ Supplementary Figure S6 reports expression support and local co-occurrence only.
 
 ## 13. Figure generation
 
-Final scripts for Figures 1-6 are under `code/table_figure_generation/`. Figure 1-5 repository-facing scripts use portable repository paths. Figure 6 consumes its frozen source authorities.
+Final scripts for Figures 1-6 are under `code/table_figure_generation/`. Figures 1-5 use repository-configurable roots. Figure 6 consumes frozen project-derived authorities and is therefore documented as a released-derived-authority workflow.
 
 ## 14. Supplementary figure generation
 
-Current generators for S1-S6 are under `code/supplementary_figure_generation/`. The released canonical outputs, legends, source workbooks, QC records, and package manifests are under `supplementary_figures/S1` through `S6`.
+Current generators for S1-S6 are under `code/supplementary_figure_generation/`. The public package retains one PDF, one legend, and one source workbook for each figure. Several generators consume project-derived authorities not redistributed in the lightweight GitHub package; their released source workbooks are the reproduction authority.
 
 ## 15. Supplementary Tables
 
-The sole release workbook is under `supplementary_tables/`. It contains 71 worksheets and no formulas.
+The sole release workbook is [`supplementary_tables/DLBCL_continuous_model_Supplementary_Tables_FRONTIERS_FINAL_SUBMISSION_READY.xlsx`](supplementary_tables/DLBCL_continuous_model_Supplementary_Tables_FRONTIERS_FINAL_SUBMISSION_READY.xlsx). It contains 71 worksheets and no formulas.
 
 ## 16. SHA verification
 
-Recompute SHA-256 for every file and compare it with `manifests/FINAL_GITHUB_REPOSITORY_SHA256_MANIFEST.csv`. `manifests/FINAL_GITHUB_MANIFEST_SELF_VERIFICATION.csv` records the release-time independent check.
+Recompute SHA-256 for every released file and compare it with `manifests/GITHUB_RELEASE_SHA256.csv`. `manifests/GITHUB_RELEASE_SHA256_SELF_CHECK.csv` records the independent release-time verification.

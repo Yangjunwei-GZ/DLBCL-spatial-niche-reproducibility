@@ -1,10 +1,10 @@
-# DLBCL continuous spatially informed microenvironment programs
+# DLBCL spatial niche reproducibility
 
-This repository is the public reproducibility compendium for a continuous-model analysis of the diffuse large B-cell lymphoma (DLBCL) microenvironment.
+## Overview
 
-## Current final model
+This repository supports a continuous-model analysis of the diffuse large B-cell lymphoma (DLBCL) microenvironment. It provides current analysis code, released derived source data, display figures, supplementary material, and environment records.
 
-The model contains six continuous gene-expression programs:
+## Programs
 
 1. Macrophage-rich
 2. T cell-inflamed
@@ -13,30 +13,35 @@ The model contains six continuous gene-expression programs:
 5. Immune-cold/exclusion
 6. Proliferative/cycling
 
-The canonical definition contains 22 memberships per program, 132 memberships in total, 121 unique genes, and 11 duplicated cross-program memberships.
+Each program contains 22 canonical memberships: 132 memberships in total, 121 unique genes, and 11 cross-program duplicate memberships.
 
-## Model-form result
+## Model-form conclusion
 
-Candidate values k = 2-6 were evaluated against prespecified retention criteria. No candidate k satisfied all criteria. Therefore, final k = **NOT_SELECTED** and taxonomy = **NOT_ASSIGNED**. The repository does not present a discrete ecosystem classification as the current model.
+No candidate k from 2-6 satisfied all prespecified retention criteria. Final k is **NOT_SELECTED**, and no discrete ecosystem taxonomy was assigned.
 
-## Contents
+## Repository structure
 
 - `code/`: current component workflows and final figure-generation scripts.
-- `environment/`: frozen lock, package records, seeds, and session information.
-- `source_data/`: frozen machine-readable figure inputs and analysis summaries.
-- `figures/`: final main Figures 1-6.
-- `supplementary_figures/`: one canonical final package for each of S1-S6.
-- `supplementary_tables/`: the publication-ready Supplementary Tables workbook.
-- `manifests/`: file hashes and release registries.
-- `docs/`: public audits and release notes.
+- `environment/`: the retained lock, package notes, seeds, and session records.
+- `source_data/`: machine-readable figure inputs and compact analysis summaries.
+- `figures/`: one final submission TIFF and legend for each main Figure 1-6.
+- `supplementary_figures/`: one PDF, legend, and source workbook for each of S1-S6.
+- `supplementary_tables/`: the final Frontiers submission-ready Supplementary Tables workbook, [`DLBCL_continuous_model_Supplementary_Tables_FRONTIERS_FINAL_SUBMISSION_READY.xlsx`](supplementary_tables/DLBCL_continuous_model_Supplementary_Tables_FRONTIERS_FINAL_SUBMISSION_READY.xlsx).
+- `manifests/`: public release hashes and their independent self-check.
 
 ## Public datasets
 
 The study reuses GEO accessions GSE31312, GSE10846, GSE181063, GSE182434, and GSE276542. Raw GEO data are not redistributed. See [DATA_SOURCES.md](DATA_SOURCES.md).
 
-## Reproducibility
+## Reproduction
 
-See [REPRODUCE.md](REPRODUCE.md). The repository preserves validated component workflows and frozen machine-readable inputs; it does not claim a single-command reconstruction of every historical object from raw data.
+See [REPRODUCE.md](REPRODUCE.md). Some figures are reproduced from released derived authorities because a complete raw-to-figure one-command environment is not claimed.
+
+## Figures and source data
+
+Use [source_data/SOURCE_DATA_INDEX.csv](source_data/SOURCE_DATA_INDEX.csv) to map each retained source table to its figure or analysis. High-resolution submission formats and large detailed intermediates are reserved for the associated Zenodo archival release; no DOI is claimed here.
+
+The released S1-S6 source workbooks and final Supplementary Tables are retained byte-for-byte. Some workbook cells preserve original provenance paths from the controlled analysis environment; these are metadata only and are not runtime dependencies. Public Markdown, CSV registries, and configurable script roots do not contain user-specific local paths.
 
 ## License
 

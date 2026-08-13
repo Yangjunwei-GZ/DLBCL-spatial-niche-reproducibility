@@ -1,0 +1,7 @@
+figure,authority_file,canonical_program_names_exact,external_replication_wording,noncanonical_visible_text,status,notes
+Figure 1,figures/Figure 1/Figure 1.tiff,PASS,PASS,,PASS,All six full program labels use canonical spelling; external structural replication is used.
+Figure 2,figures/Figure 2/Figure 2.tiff,FAIL,NOT_APPLICABLE,Stromal / fibrotic; Proliferative / cycling; Immune-cold / exclusion (matrix axis),FAIL,Latest manually confirmed TIFF contains spacing variants rather than exact canonical labels.
+Figure 3,figures/Figure 3/Figure 3.tiff,FAIL,NOT_APPLICABLE,Stromal / fibrotic; Proliferative / cycling,FAIL,Latest manually confirmed TIFF contains spacing variants rather than exact canonical labels.
+Figure 4,figures/Figure 4/Figure 4.tiff,PASS,PASS,,PASS,Visible panel title uses External replication; no External validation wording.
+Figure 5,figures/Figure 5/Figure 5.tiff,FAIL,NOT_APPLICABLE,Immune-inflamed / antigen-presentation; Stromal / fibrotic; Immune-cold / exclusion-associated; Proliferative / cycling,FAIL,Latest manually confirmed TIFF retains historical display aliases.
+Figure 6,figures/Figure 6/Figure 6.tiff,NOT_REASSESSED,NOT_APPLICABLE,,PASS,Held byte-identical as required; current final authority unchanged.
