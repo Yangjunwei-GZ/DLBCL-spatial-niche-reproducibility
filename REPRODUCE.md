@@ -10,7 +10,7 @@ Download raw or processed public data from GEO using the accessions in `DATA_SOU
 
 ## 3. Environment setup
 
-The validated R runtime was R 4.5.1. `environment/renv.lock` covers the core environment but not every direct package used across the current scripts. Additional version evidence is summarized in `environment/README.md` and `environment/package_versions.csv`. Exact one-lock restoration is therefore PARTIAL.
+The validated R runtime was R 4.5.1. `environment/renv.lock` records 16 of the 28 direct R packages required by the public scripts. Exact versions for the remaining 12 packages are documented in `environment/README.md` and `environment/package_versions.csv` from frozen execution evidence. Exact one-lock restoration is therefore partial and is not claimed.
 
 ```r
 renv::restore(lockfile = "environment/renv.lock")
@@ -24,11 +24,11 @@ The source workbooks are immutable scientific artifacts. Embedded provenance-pat
 
 ## 4. Program definitions
 
-The canonical public definition is `source_data/figure_rendering/Figure_1/canonical_programs_v2.csv`: six programs, 22 memberships per program, 132 memberships, 121 unique genes, and 11 duplicated cross-program memberships.
+The recorded membership table is `source_data/figure_rendering/Figure_1/canonical_programs_v2.csv`: six literature-informed curated composite programs, 22 memberships per program, 132 memberships, 121 unique genes, and 11 shared cross-program memberships. The filename is retained as an internal provenance identifier and does not denote a validated biological taxonomy.
 
 ## 5. Bulk scoring
 
-Current GSE31312 analyses use the frozen 498 x 6 score authority. The primary score matrix is a validated transformation of a historical ssGSEA score space; the original historical package environment is not fully recoverable. Current score-freeze and validation scripts are under `code/continuous_model/`.
+Current GSE31312 primary analyses use the frozen 498 x 6 historical score authority. The primary score matrix is a validated transformation of the recorded historical ssGSEA score space; the original package environment cannot be reconstructed exactly. Consequently, exact regeneration of the historical matrix from raw expression is not claimed. Reviewer-requested harmonized sensitivity scoring used GSVA 2.4.9 in ssGSEA mode across GSE31312 (n=498), GSE10846 unsorted bulk samples (n=414), and GSE181063 (n=1,310). Frozen current summaries are under `source_data/final_sensitivity_summaries/`, and workflow scripts are under `code/continuous_model/`.
 
 ## 6. COO analyses
 
@@ -36,11 +36,11 @@ Use the frozen GSE31312 score matrix, COO metadata, PCA coordinates, and Kruskal
 
 ## 7. Candidate-k adjudication
 
-Use `source_data/figure_rendering/Figure_3/` and the current model-form adjudication scripts. Candidate k = 2-6 were checked against prespecified criteria; no candidate passed all criteria. Figure 3 is reproduced from the released derived authority.
+Use `source_data/figure_rendering/Figure_3/`, `source_data/final_sensitivity_summaries/k2_k6_retention_and_continuity.csv`, and the current model-form adjudication scripts. The retention rules were defined during revision before the reviewer-requested execution. No candidate k = 2-6 was sufficiently stable under the full rule set; a possible k=2 structure remained stability-limited. Final k was not selected and no discrete taxonomy was assigned. Figure 3 is reproduced from the released derived authority.
 
 ## 8. External continuous replication
 
-The GSE10846 and GSE181063 frozen score/correlation inputs and integration summaries are under `source_data/figure_rendering/Figure_4/`. Workflow scripts are under `code/external_validation/`.
+The GSE10846 and GSE181063 frozen score/correlation inputs and integration summaries are under `source_data/figure_rendering/Figure_4/`. The historical GSE10846 primary analysis used all 420 profiles; reviewer-requested harmonized and de-overlap sensitivities used the 414 unsorted bulk samples. Workflow scripts remain under `code/external_validation/` for provenance, and frozen public summaries are under `source_data/final_sensitivity_summaries/`.
 
 ## 9. Single-cell contextualization
 
@@ -52,7 +52,7 @@ GSE276542 workflow scripts are under `code/spatial/`. Final authority tables for
 
 ## 11. Spatial robustness analyses
 
-Current matched-null, depth-adjusted, residual-permutation, matching-balance, and direct-source/core scripts are retained. Their display-ready values are released in the S5 source workbook and final Supplementary Tables. Large detailed intermediates and replicate-level matched membership partitions are reserved for the associated Zenodo archival release.
+Current matched-null, depth-adjusted, residual-permutation, matching-balance, and direct-source/core scripts are retained. Their display-ready values are released in the S5 source workbook, the final Supplementary Tables, and `source_data/final_sensitivity_summaries/spatial_sensitivity_denominators.csv`. Matched-null support (42/54 evaluable combinations overall; 25/32 primary-plus-exploratory combinations) is distinct from depth-adjusted residual support (30/30 DLBCL-area combinations). Large detailed intermediates and replicate-level matched membership partitions are reserved for the associated Zenodo archival release.
 
 ## 12. LR expression-only support
 

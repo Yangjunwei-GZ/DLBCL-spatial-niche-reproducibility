@@ -1,0 +1,6 @@
+k,PAC_relative_gate,silhouette_within_0_02_relative_gate,mean_silhouette,silhouette_threshold,minimum_cluster_size,minimum_cluster_size_threshold,minimum_cluster_median_Jaccard,minimum_cluster_median_Jaccard_threshold,overall_median_Jaccard,overall_median_Jaccard_threshold,All_absolute_criteria_met,Interpretation,Taxonomy_retained
+2,,TRUE,0.262273960935421,>0.25,164,>=25,0.544793338683788,>=0.60,0.669421487603306,>=0.75,FALSE,Silhouette and size criteria met; stability thresholds not met,NO
+3,,TRUE,0.242735796581409,>0.25,16,>=25,0.197826086956522,>=0.60,0.458739241464107,>=0.75,FALSE,Absolute retention criteria not met,NO
+4,,FALSE,0.154962319462817,>0.25,16,>=25,0.280625,>=0.60,0.422222222222222,>=0.75,FALSE,Absolute retention criteria not met,NO
+5,,FALSE,0.155367246625237,>0.25,16,>=25,0.412325917887502,>=0.60,0.484611742424242,>=0.75,FALSE,Absolute retention criteria not met,NO
+6,,FALSE,0.159777662814842,>0.25,16,>=25,0.161290322580645,>=0.60,0.468085106382979,>=0.75,FALSE,Absolute retention criteria not met,NO

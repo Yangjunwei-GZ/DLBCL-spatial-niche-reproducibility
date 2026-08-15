@@ -1,13 +1,4 @@
-# Figure 5 | Single-cell contextualization of the six continuous programs.
 
-A, UMAP of 14,368 DLBCL cells from four patients in GSE182434, colored according to the original major cell-type annotations.
+Figure 5 | Single-cell contextualization of the six composite programs.
 
-B, Projection of the six continuous program scores onto the same UMAP coordinates. Colors represent program-wise standardized UCell scores, displayed on a common scale from -2.5 to 2.5 for visualization.
-
-C, Cell-type-resolved program profiles. Dot color represents the mean standardized UCell score within each annotated cell type, whereas dot size represents the fraction of cells exceeding the pooled program-specific 75th percentile of the corresponding raw UCell score.
-
-D, Donor-resolved descriptive profiles of mean raw UCell scores across annotated cell types in each of the four patients. Color scales are program-specific. Gray cells indicate donor-cell-type combinations for which no cells were available and therefore no mean UCell score could be calculated. Panel D is descriptive only and no inferential statistical testing was performed.
-
-The Macrophage-rich program was most prominent in monocytes and macrophages, whereas the T cell-inflamed program was most evident in T/NK-associated lineages. The Antigen-presentation program was also prominent in monocytes and macrophages. The Stromal/fibrotic program was not restricted to a resolved stromal lineage in this immune-dominated annotation and therefore does not establish fibroblast or endothelial localization. The Immune-cold/exclusion program showed a composite cross-lineage distribution and should be interpreted with caution. The Proliferative/cycling program was most evident in a B-cell context; malignant B-cell identity was not inferred from this dataset.
-
-No stromal-cell validation, fibroblast localization, endothelial localization, malignant B-cell inference, taxonomy validation, discrete six-state interpretation, or independent validation is implied by this descriptive contextualization.
+The controlling UMAP, standardized UCell score overlays, annotation-resolved dot plot, and donor-resolved heatmaps are preserved unchanged for 14,368 DLBCL cells from 4 patients, 9 retained annotations, and 6 programs. Among the retained annotations, stromal/fibrotic scores were highest in the monocyte/macrophage compartment. Fibroblast and endothelial annotations are absent, preventing direct testing of stromal-lineage localization. Panel C dot size is the within-annotation fraction above the program-specific 75th percentile. Because B-cell-sorted and non-B-cell-sorted fractions are represented, dot size must not be interpreted as tissue composition or cell-type abundance. No UCell score or single-cell result was recomputed.

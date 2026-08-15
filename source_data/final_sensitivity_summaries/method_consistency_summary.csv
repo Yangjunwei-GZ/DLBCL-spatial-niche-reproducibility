@@ -1,0 +1,7 @@
+Metric,Value,Display,Note
+Comparisons,108,108,54 area-program combinations x 2 method comparisons
+Median Spearman rho,0.8775148635200355,0.878,All 108 comparisons
+rho < 0.7,18,18/108,17 are ssGSEA-related; one is primary versus SCTransform/UCell
+rho < 0.5,4,4/108,Strict inequality
+Minimum rho,0.190400321375305,0.190,Cap.area6 x T cell-inflamed x primary versus ssGSEA
+Non-ssGSEA comparison below 0.7,0.67338670408609,0.673,Cap.area3 x Antigen-presentation x primary versus SCTransform/UCell

@@ -1,0 +1,4 @@
+Analysis_family,Scope,Evaluable_n,Supported_both_n,Display,Interpretation
+Expression/detection-matched random-gene-set null,All evaluable capture area x program combinations,54,42,42/54,Sensitivity analysis
+Expression/detection-matched random-gene-set null,Primary plus coverage-limited exploratory combinations,32,25,25/32,Sensitivity analysis
+Depth-adjusted residual spatial analysis,DLBCL-area combinations,30,30,30/30,Separate sensitivity analysis; does not replace matched-null results

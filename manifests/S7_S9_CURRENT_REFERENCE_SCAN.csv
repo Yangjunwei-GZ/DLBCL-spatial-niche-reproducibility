@@ -1,1 +1,4 @@
 relative_path,line_number,matched_text,classification,risk
+code/supplementary_figure_generation/S6/build_s6_authority_and_figure.py,182,"""Historical_panel"": ""S9 historical program-association component"",",HISTORICAL_PROVENANCE_CONTEXT,NONE
+code/supplementary_figure_generation/S6/build_s6_authority_and_figure.py,291,"""Historical_panel"": ""S9 historical niche-context panel / S22E"",",HISTORICAL_PROVENANCE_CONTEXT,NONE
+code/supplementary_figure_generation/S6/build_s6_authority_and_figure.py,300,"""Historical_panel"": ""Historical S9 workflow endpoint"",",HISTORICAL_PROVENANCE_CONTEXT,NONE

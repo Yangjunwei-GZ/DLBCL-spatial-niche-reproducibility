@@ -1,0 +1,9 @@
+Cohort,N,Program,Population,Pearson_r,Spearman_rho,Rank_within_program,Evaluability,Analysis_role
+GSE31312,498,Stromal/fibrotic,Fibroblasts,0.829391498487109,0.837124978424037,1,Evaluable,Orthogonal benchmark
+GSE10846,414,Stromal/fibrotic,Fibroblasts,0.898315774196566,0.905781838798504,1,Evaluable,Orthogonal benchmark
+GSE10846,414,Proliferative/cycling,T cells,-0.467782162262887,-0.526261209751575,1,Evaluable,Orthogonal benchmark
+GSE181063,1310,Stromal/fibrotic,Fibroblasts,0.926477813709737,0.922901321062819,1,Evaluable,Orthogonal benchmark
+GSE31312,498,All six programs,Multivariable disjoint-marker model,,,,Evaluable,Adjusted R2 range 0.338-0.683; median 0.480
+GSE10846,414,All six programs,Multivariable disjoint-marker model,,,,Evaluable,Adjusted R2 range 0.393-0.771; median 0.529
+GSE181063,1310,All six programs,Multivariable disjoint-marker model,,,,Evaluable,Adjusted R2 range 0.416-0.758; median 0.466
+All three cohorts,,Stromal/fibrotic,Fibroblasts after removal of all overlapping program genes,,,,Not evaluable: only 3 disjoint fibroblast markers remained (minimum 5),Sensitivity analysis

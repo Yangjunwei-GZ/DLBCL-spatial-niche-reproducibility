@@ -1,0 +1,31 @@
+Area,Assay_version,Program,Detected_genes,Program_genes,Coverage_fraction,Missing_genes,Analysis_role,Interpretive_note
+Cap.area3,V1,Macrophage-rich,22,22,1.0,,Primary,Assay-associated program-gene coverage; not evidence of a biological difference between capture areas.
+Cap.area3,V1,T cell-inflamed,22,22,1.0,,Primary,Assay-associated program-gene coverage; not evidence of a biological difference between capture areas.
+Cap.area3,V1,Antigen-presentation,21,22,0.954545454545455,HLA-B,Primary,Assay-associated program-gene coverage; not evidence of a biological difference between capture areas.
+Cap.area3,V1,Stromal/fibrotic,22,22,1.0,,Primary,Assay-associated program-gene coverage; not evidence of a biological difference between capture areas.
+Cap.area3,V1,Immune-cold/exclusion,21,22,0.954545454545455,LGALS9,Primary,Assay-associated program-gene coverage; not evidence of a biological difference between capture areas.
+Cap.area3,V1,Proliferative/cycling,21,22,0.954545454545455,HMGB2,Primary,Assay-associated program-gene coverage; not evidence of a biological difference between capture areas.
+Cap.area4,V2,Macrophage-rich,22,22,1.0,,Primary,Assay-associated program-gene coverage; not evidence of a biological difference between capture areas.
+Cap.area4,V2,T cell-inflamed,21,22,0.954545454545455,CD8B,Primary,Assay-associated program-gene coverage; not evidence of a biological difference between capture areas.
+Cap.area4,V2,Antigen-presentation,13,22,0.590909090909091,HLA-DRA;HLA-DRB1;HLA-DPA1;HLA-DPB1;HLA-DQA1;HLA-DQB1;HLA-A;HLA-B;HLA-C,Exploratory,Assay-associated program-gene coverage; not evidence of a biological difference between capture areas.
+Cap.area4,V2,Stromal/fibrotic,22,22,1.0,,Primary,Assay-associated program-gene coverage; not evidence of a biological difference between capture areas.
+Cap.area4,V2,Immune-cold/exclusion,22,22,1.0,,Primary,Assay-associated program-gene coverage; not evidence of a biological difference between capture areas.
+Cap.area4,V2,Proliferative/cycling,22,22,1.0,,Primary,Assay-associated program-gene coverage; not evidence of a biological difference between capture areas.
+Cap.area5,V2,Macrophage-rich,22,22,1.0,,Primary,Assay-associated program-gene coverage; not evidence of a biological difference between capture areas.
+Cap.area5,V2,T cell-inflamed,21,22,0.954545454545455,CD8B,Primary,Assay-associated program-gene coverage; not evidence of a biological difference between capture areas.
+Cap.area5,V2,Antigen-presentation,13,22,0.590909090909091,HLA-DRA;HLA-DRB1;HLA-DPA1;HLA-DPB1;HLA-DQA1;HLA-DQB1;HLA-A;HLA-B;HLA-C,Exploratory,Assay-associated program-gene coverage; not evidence of a biological difference between capture areas.
+Cap.area5,V2,Stromal/fibrotic,22,22,1.0,,Primary,Assay-associated program-gene coverage; not evidence of a biological difference between capture areas.
+Cap.area5,V2,Immune-cold/exclusion,22,22,1.0,,Primary,Assay-associated program-gene coverage; not evidence of a biological difference between capture areas.
+Cap.area5,V2,Proliferative/cycling,22,22,1.0,,Primary,Assay-associated program-gene coverage; not evidence of a biological difference between capture areas.
+Cap.area6,V2,Macrophage-rich,22,22,1.0,,Primary,Assay-associated program-gene coverage; not evidence of a biological difference between capture areas.
+Cap.area6,V2,T cell-inflamed,21,22,0.954545454545455,CD8B,Primary,Assay-associated program-gene coverage; not evidence of a biological difference between capture areas.
+Cap.area6,V2,Antigen-presentation,13,22,0.590909090909091,HLA-DRA;HLA-DRB1;HLA-DPA1;HLA-DPB1;HLA-DQA1;HLA-DQB1;HLA-A;HLA-B;HLA-C,Exploratory,Assay-associated program-gene coverage; not evidence of a biological difference between capture areas.
+Cap.area6,V2,Stromal/fibrotic,22,22,1.0,,Primary,Assay-associated program-gene coverage; not evidence of a biological difference between capture areas.
+Cap.area6,V2,Immune-cold/exclusion,22,22,1.0,,Primary,Assay-associated program-gene coverage; not evidence of a biological difference between capture areas.
+Cap.area6,V2,Proliferative/cycling,22,22,1.0,,Primary,Assay-associated program-gene coverage; not evidence of a biological difference between capture areas.
+Cap.area7,V2,Macrophage-rich,22,22,1.0,,Primary,Assay-associated program-gene coverage; not evidence of a biological difference between capture areas.
+Cap.area7,V2,T cell-inflamed,21,22,0.954545454545455,CD8B,Primary,Assay-associated program-gene coverage; not evidence of a biological difference between capture areas.
+Cap.area7,V2,Antigen-presentation,13,22,0.590909090909091,HLA-DRA;HLA-DRB1;HLA-DPA1;HLA-DPB1;HLA-DQA1;HLA-DQB1;HLA-A;HLA-B;HLA-C,Exploratory,Assay-associated program-gene coverage; not evidence of a biological difference between capture areas.
+Cap.area7,V2,Stromal/fibrotic,22,22,1.0,,Primary,Assay-associated program-gene coverage; not evidence of a biological difference between capture areas.
+Cap.area7,V2,Immune-cold/exclusion,22,22,1.0,,Primary,Assay-associated program-gene coverage; not evidence of a biological difference between capture areas.
+Cap.area7,V2,Proliferative/cycling,22,22,1.0,,Primary,Assay-associated program-gene coverage; not evidence of a biological difference between capture areas.

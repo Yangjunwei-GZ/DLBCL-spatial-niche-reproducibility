@@ -1,0 +1,7 @@
+Program,Total_memberships,Direct_source_core_n,Direct_source_core_percent,Author_curated_n,Author_curated_percent,Other_provenance_n,Shared_memberships_n,Direct_source_sensitivity,Interpretation
+Macrophage-rich,22,17,77.272727,5,22.727273,0,0,Evaluable,Five-program direct-source core; paired full/core rescoring completed
+T cell-inflamed,22,15,68.181818,7,31.818182,0,2,Evaluable,Five-program direct-source core; paired full/core rescoring completed
+Antigen-presentation,22,8,36.363636,14,63.636364,0,2,Evaluable,Bulk evaluable; spatial core evaluable only in Cap.area1-Cap.area3
+Stromal/fibrotic,22,16,72.727273,6,27.272727,0,9,Evaluable,Five-program direct-source core; paired full/core rescoring completed
+Immune-cold/exclusion,22,0,0.0,19,86.363636,3,9,Not evaluable,No explicitly direct-source core; no substitute signature introduced
+Proliferative/cycling,22,9,40.909091,13,59.090909,0,0,Evaluable,Five-program direct-source core; paired full/core rescoring completed

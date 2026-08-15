@@ -1,0 +1,9 @@
+Analysis,Discovery_cohort,Replication_cohort,N_replication,Edge_count,Spearman_edge_rank_rho,Mean_absolute_edge_difference,Maximum_absolute_edge_difference,Analysis_role
+Harmonized full-program sensitivity,GSE31312,GSE10846,414,15,0.957142857142857,0.194777385838362,0.442425409873037,Sensitivity analysis
+Harmonized full-program sensitivity,GSE31312,GSE181063,1310,15,0.975,0.10343885206446,0.251868830851617,Sensitivity analysis
+Harmonized de-overlap sensitivity,GSE31312,GSE10846,414,15,0.946428571428571,0.189479332102847,0.443997044096478,Sensitivity analysis
+Harmonized de-overlap sensitivity,GSE31312,GSE181063,1310,15,0.95,0.0880111240259039,0.238464338651906,Sensitivity analysis
+Harmonized common-detected-gene sensitivity,GSE31312,GSE10846,414,15,0.95,0.195689444073675,0.442425409873037,Sensitivity analysis
+Harmonized common-detected-gene sensitivity,GSE31312,GSE181063,1310,15,0.978571428571428,0.104148019083057,0.260870701714263,Sensitivity analysis
+Historical 15-edge comparison,GSE31312,GSE10846,414,15,0.935714285714285,0.154041586970729,0.438050511787441,Primary historical analysis
+Historical shared-edge and proliferation-edge exclusion,GSE31312,GSE10846,414,8,0.690476190476191,,,Sensitivity analysis

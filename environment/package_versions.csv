@@ -1,6 +1,30 @@
-"package","version","source"
-"R","4.5.1","validated execution records"
-"MCPcounter","1.2.0","06r official ebecht/MCPcounter commit b6eac73e91c246fcff0bb1a5c68a816cd588fc48"
-"Seurat","see renv.lock/sessionInfo","environment capture"
-"UCell","see renv.lock/sessionInfo","environment capture"
-"GSVA","see renv.lock/sessionInfo","environment capture"
+package,version,source,present_in_renv_lock
+R,4.5.1,validated execution records,NOT_APPLICABLE
+ALL,1.52.0,renv.lock,TRUE
+AnnotationDbi,1.72.0,renv.lock,TRUE
+BH,1.90.0-1,renv.lock,TRUE
+Biobase,2.70.0,renv.lock,TRUE
+BiocFileCache,3.0.0,renv.lock,TRUE
+BiocGenerics,0.56.0,renv.lock,TRUE
+BiocManager,1.30.27,renv.lock,TRUE
+BiocParallel,1.44.0,renv.lock,TRUE
+BiocSingular,1.26.1,renv.lock,TRUE
+BiocVersion,3.22.0,renv.lock,TRUE
+Biostrings,2.78.0,renv.lock,TRUE
+ConsensusClusterPlus,1.74.0,renv.lock,TRUE
+DBI,1.3.0,renv.lock,TRUE
+DelayedArray,0.36.1,renv.lock,TRUE
+GSEABase,1.72.0,renv.lock,TRUE
+GSVA,2.4.9,renv.lock,TRUE
+MCPcounter,1.2.0,frozen session/execution evidence,FALSE
+Seurat,5.5.1,frozen session/execution evidence,FALSE
+SeuratObject,5.4.0,frozen session/execution evidence,FALSE
+UCell,2.14.0,frozen session/execution evidence,FALSE
+cowplot,1.2.0,frozen session/execution evidence,FALSE
+future,1.75.0,frozen session/execution evidence,FALSE
+patchwork,1.3.2,frozen session/execution evidence,FALSE
+ragg,1.5.2,frozen session/execution evidence,FALSE
+readxl,1.4.5,frozen session/execution evidence,FALSE
+systemfonts,1.3.2,frozen session/execution evidence,FALSE
+tiff,0.1-12,frozen session/execution evidence,FALSE
+zip,2.3.3,frozen session/execution evidence,FALSE
