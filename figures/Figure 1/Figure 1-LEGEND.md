@@ -1,4 +1,0 @@
-
-Figure 1 | Definition and evidence provenance of the continuous program model.
-
-(A-C) The current Figure 1 scientific panels present the study design, the six-program membership matrix (132 memberships; 121 unique genes; 11 shared genes), and cohort scope. Internal historical display aliases remain embedded in the original panel. (D) Evidence-provenance composition for the six literature-informed curated composite programs. Bars show direct-source core, author-curated, and other recorded provenance memberships. Counts are Macrophage-rich 17/5/0; T cell-inflamed 15/7/0; Antigen-presentation 8/14/0; Stromal/fibrotic 16/6/0; Immune-cold/exclusion 0/19/3; and Proliferative/cycling 9/13/0. Each program retains 22 memberships. For Immune-cold/exclusion, direct-source core equals zero, so direct-source-core sensitivity is structurally non-evaluable. No program definition, membership, or scientific value was changed.
