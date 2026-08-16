@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository supports a continuous-model analysis of the diffuse large B-cell lymphoma (DLBCL) microenvironment. It provides current analysis code, released derived source data, display figures, supplementary material, and environment records.
+This repository supports a continuous-model analysis of the diffuse large B-cell lymphoma (DLBCL) microenvironment. It provides current analysis code, released derived/source data, reproducibility documentation, environment records, and integrity/provenance manifests.
 
 ## Programs
 
@@ -24,10 +24,7 @@ The candidate-k retention rules were prespecified before model-form adjudication
 - `code/`: current component workflows and final figure-generation scripts.
 - `environment/`: the retained lock, package notes, seeds, and session records.
 - `source_data/`: machine-readable figure inputs and compact final sensitivity summaries.
-- `figures/`: one final submission TIFF and legend for each main Figure 1-6.
-- `supplementary_figures/`: one final submission TIFF, legend, and source workbook for each of S1-S6.
-- `supplementary_tables/`: the final Frontiers submission-ready Supplementary Tables workbook, [`DLBCL_continuous_model_Supplementary_Tables_FRONTIERS_FINAL_SUBMISSION_READY.xlsx`](supplementary_tables/DLBCL_continuous_model_Supplementary_Tables_FRONTIERS_FINAL_SUBMISSION_READY.xlsx).
-- `manifests/`: public release hashes and their independent self-check.
+- `manifests/`: current-tree hashes, provenance records, and repository quality-control audits.
 
 ## Public datasets
 
@@ -39,9 +36,9 @@ See [REPRODUCE.md](REPRODUCE.md). Some figures are reproduced from released deri
 
 ## Figures and source data
 
-Use [source_data/SOURCE_DATA_INDEX.csv](source_data/SOURCE_DATA_INDEX.csv) to map each retained source table to its figure or analysis. Submission-facing summaries of provenance, candidate-k adjudication, harmonized bulk scoring, exploratory continuous-program survival analyses, orthogonal benchmarking, and spatial sensitivities are under [`source_data/final_sensitivity_summaries/`](source_data/final_sensitivity_summaries/). Current high-resolution submission TIFFs are included; large detailed intermediates remain reserved for an associated archival release. No DOI is claimed here.
+Use [source_data/SOURCE_DATA_INDEX.csv](source_data/SOURCE_DATA_INDEX.csv) to map each retained source table to its figure or analysis. Summaries of provenance, candidate-k adjudication, harmonized bulk scoring, exploratory continuous-program survival analyses, orthogonal benchmarking, and spatial sensitivities are under [`source_data/final_sensitivity_summaries/`](source_data/final_sensitivity_summaries/). Large detailed intermediates remain reserved for the associated archival release.
 
-The released S1-S6 source workbooks and final Supplementary Tables are retained byte-for-byte. Some workbook cells preserve original provenance paths from the controlled analysis environment; these are metadata only and are not runtime dependencies. Public Markdown, CSV registries, and configurable script roots do not contain user-specific local paths.
+Publication-ready main figures, supplementary figures, and the compiled Supplementary Tables workbook are distributed with the journal submission/publication and are not duplicated in this repository. The retained scripts and machine-readable source authorities document the reported analyses; publication artwork is not required for integrity verification of the released data.
 
 ## License
 

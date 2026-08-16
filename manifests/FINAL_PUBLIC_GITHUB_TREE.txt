@@ -1,210 +1,165 @@
-DLBCL-spatial-niche-reproducibility/
-| code/
-| | continuous_model/
-| | | 28_wp1_continuous_score_freeze_v1.R
-| | | 28f_wp1_continuous_score_freeze_validator_v1.R
-| | | format_score_space_validation.R
-| | | generate_final_continuation_reports_and_qc.R
-| | | generate_stage4c2_model_form_adjudication.R
-| |   stage4_environment.R
-| | external_validation/
-| | | 29_common_wp2_functions_v1.R
-| | | 29_wp2_external_continuous_validation_orchestrator_v1.R
-| | | 29a_wp2_parse_and_map_external_expression_v1.R
-| | | 29b_wp2_gene_mapping_and_probe_collapse_v1.R
-| | | 29c_wp2_external_program_scoring_v1.R
-| | | 29d_wp2_score_qc_and_mapping_sensitivity_v1.R
-| | | 29e_wp2_program_structure_validation_v1.R
-| | | 29f_wp2_strategy_b_frozen_loading_projection_v1.R
-| | | 29g_wp2_strategy_a_scale_diagnostics_and_projection_v1.R
-| | | 29h_wp2_cross_cohort_integration_v1.R
-| |   29v_wp2_external_continuous_validation_validator_v1.R
-| | matched_null_depth/
-| | | 04_06p_scientific_execution.R
-| | | 05_06p_partitioned_membership_resume.R
-| |   06_06p_final_validation_only.R
-| | matching_balance/
-| |   01_06q_matching_balance_qc.R
-| | orthogonal_TME_benchmark/
-| | | 00_06r_common.R
-| | | 01_06r_preflight.R
-| | | 02_06r_orthogonal_tme_benchmark.R
-| |   03_06r_validation.R
-| | single_cell/
-| |   16_FIGURE5_PHASEC_SCIENTIFIC_EXECUTION.R
-| | source_grounded_sensitivity/
-| | | 01_common.R
-| | | 01_runtime_capture.R
-| | | 02_bulk_paired_rescore.R
-| | | 03_spatial_core_sensitivity.R
-| |   04_finalize_validate.R
-| | spatial/
-| | | 36_wp3_resume_orchestrator_v3.R
-| | | 36a_wp3_load_and_validate_spatial_inputs_v3.R
-| | | 36b_wp3_program_area_eligibility_v3.R
-| | | 36c_wp3_primary_lognormalize_ucell_v3.R
-| | | 36d_wp3_sct_ucell_sensitivity_v3.R
-| | | 36e_wp3_ssgsea_sensitivity_v3.R
-| | | 36f_wp3_score_qc_concordance_v3.R
-| | | 36g_wp3_visium_neighbors_v3.R
-| | | 36h_wp3_spatial_autocorrelation_edge_v3.R
-| | | 36i_wp3_bivariate_spatial_association_edge_v3.R
-| | | 36j_wp3_exploratory_pc_v3.R
-| | | 36k_wp3_capture_area_synthesis_v3.R
-| | | 36v_wp3_resume_validator_v3.R
-| | | 37f_wp3_validation_only_finalizer_v4.R
-| | | 37v_wp3_completed_result_validator_v4.R
-| | | wp3_common_v3.R
-| |   wp3_completed_result_loader_v4.R
-| | supplementary_figure_generation/
-| | | S1/
-| | |   run_s1_s5_correction_stage.py
-| | | S2/
-| | |   plot_supplementary_fig_s2.py
-| | | S3/
-| | |   plot_supplementary_fig_s3.py
-| | | S4/
-| | |   plot_supplementary_fig_s4.py
-| | | S5/
-| | |   build_s5.py
-| |   S6/
-| |     build_s6_authority_and_figure.py
-|   table_figure_generation/
-|   | plot_figure1_panel_b_integrity_repair.R
-|   | plot_Figure_2_CONTINUOUS_MODEL_FINAL.R
-|   | plot_Figure_3_CONTINUOUS_GEOMETRY_AND_K_ADJUDICATION_FINAL_V2.R
-|   | plot_Figure_4_EXTERNAL_CONTINUOUS_REPLICATION_FINAL.R
-|   | plot_Figure_5_SUBMISSION_V2.R
-|     plot_Figure_6_FINAL_SUBMISSION.R
-| environment/
-| | renv/
-| |   activate.R
-| | 06P_SEED_FORMULA.md
-| | FIGURE4_sessionInfo.txt
-| | FIGURE5_sessionInfo.txt
-| | package_versions.csv
-| | README.md
-| | renv.lock
-|   STAGE4C1_ATTEMPT2_SEED_REGISTRY.csv
-| figures/
-| | Figure 1/
-| | | Figure 1-LEGEND.md
-| |   Figure 1.tiff
-| | Figure 2/
-| | | Figure 2-LEGEND.md
-| |   Figure 2.tiff
-| | Figure 3/
-| | | Figure 3-LEGEND.md
-| |   Figure 3.tiff
-| | Figure 4/
-| | | Figure 4-LEGEND.md
-| |   Figure 4.tiff
-| | Figure 5/
-| | | Figure 5-LEGEND.md
-| |   Figure 5.tiff
-|   Figure 6/
-|   | Figure 6-LEGEND.md
-|     Figure 6.tiff
-| manifests/
-| | ABSOLUTE_LOCAL_PATH_SCAN.csv
-| | CREDENTIAL_SCAN.csv
-| | CURRENT_FRAMEWORK_LEGACY_SCAN.csv
-| | DUPLICATE_FILE_SCAN.csv
-| | FIGURE_TERMINOLOGY_PREFLIGHT.csv
-| | FINAL_PUBLIC_GITHUB_TREE.txt
-| | FINAL_SYNC_IMMUTABILITY_AUDIT.csv
-| | GITHUB_RELEASE_SHA256.csv
-| | GITHUB_RELEASE_SHA256_SELF_CHECK.csv
-| | PACKAGE_COMPLETENESS_AUDIT.csv
-|   S7_S9_CURRENT_REFERENCE_SCAN.csv
-| source_data/
-| | figure_rendering/
-| | | Figure_1/
-| | |   canonical_programs_v2.csv
-| | | Figure_2/
-| | | | GSE31312_COO_metadata.csv
-| | | | GSE31312_COO_niche_score_kruskal_test.csv
-| | | | GSE31312_primary_score_matrix_498x6.csv
-| | |   PCA_SAMPLE_COORDINATES.csv
-| | | Figure_3/
-| | | | ALL_VARIANT_K_THRESHOLD_FAILURE_MATRIX.csv
-| | | | BOOTSTRAP_FAILURE_DISTRIBUTION_SUMMARY.csv
-| | | | FIGURE3_FINAL_DECISION_USED.csv
-| | | | FINAL_K_MODEL_FORM_ADJUDICATION_RULES.md
-| | | | PCA_EXPLAINED_VARIANCE.csv
-| | | | PCA_PROGRAM_LOADINGS.csv
-| | | | PRIMARY_K2_K6_THRESHOLD_DECOMPOSITION.csv
-| | | | THRESHOLD_FAILURE_FREQUENCY_BY_K.csv
-| | |   WP1_PROGRAM_PC_PEARSON_CORRELATIONS.csv
-| | | Figure_4/
-| | | | GSE10846_PRIMARY_PEARSON_CORRELATION_MATRIX.csv
-| | | | GSE181063_PRIMARY_PEARSON_CORRELATION_MATRIX.csv
-| | | | GSE31312_PEARSON_CORRELATION_MATRIX.csv
-| | | | WP2_CROSS_COHORT_INTEGRATION_SUMMARY.csv
-| | | | WP2_PRIMARY_CORRELATION_EDGES_LONG.csv
-| | |   WP2_STRUCTURAL_REPLICATION_POINT_ESTIMATES.csv
-| |   Figure_6/
-| |   | FIGURE6A_CANONICAL_SPOT_SOURCE_DATA.csv
-| |   | WP3_ANTIGEN_PRESENTATION_COVERAGE_AND_RESULT_LIMITATION.csv
-| |   | WP3_FINAL_AREA_AUTHORITY_REGISTRY.csv
-| |   | WP3_FINAL_BIVARIATE_AUTHORITY.csv
-| |   | WP3_FINAL_METHOD_CONCORDANCE_AUTHORITY.csv
-| |     WP3_FINAL_MORAN_GEARY_AUTHORITY.csv
-| | final_sensitivity_summaries/
-| | | exploratory_continuous_program_os_results.csv
-| | | harmonized_bulk_sensitivity_summary.csv
-| | | k2_k6_retention_and_continuity.csv
-| | | method_consistency_summary.csv
-| | | orthogonal_benchmark_summary.csv
-| | | program_membership_provenance_132.csv
-| | | program_provenance_summary.csv
-| | | published_taxonomy_limitation.csv
-| | | shared_gene_memberships.csv
-| | | spatial_assay_coverage.csv
-| |   spatial_sensitivity_denominators.csv
-| | single_cell/
-| | | FIGURE5_PANEL_A_SOURCE_DATA.csv.gz
-| | | FIGURE5_PANEL_B_SOURCE_DATA.csv.gz
-| | | FIGURE5_PANEL_C_SOURCE_DATA.csv
-| | | FIGURE5_PANEL_D_COVERAGE_QC.csv
-| | | FIGURE5_PANEL_D_SOURCE_DATA.csv
-| | | GSE182434_canonical_gene_coverage.csv
-| |   GSE182434_program_coverage_summary.csv
-| | README.md
-|   SOURCE_DATA_INDEX.csv
-| supplementary_figures/
-| | S1/
-| | | Supplementary_Fig_S1_FINAL_LEGEND.txt
-| | | SUPPLEMENTARY_FIG_S1_FINAL_SOURCE_DATA.xlsx
-| |   Supplementary_Fig_S1_FINAL_SUBMISSION.tiff
-| | S2/
-| | | Supplementary_Fig_S2_FINAL_LEGEND.txt
-| | | SUPPLEMENTARY_FIG_S2_FINAL_SOURCE_DATA.xlsx
-| |   Supplementary_Fig_S2_FINAL_SUBMISSION.tiff
-| | S3/
-| | | Supplementary_Fig_S3_FINAL_LEGEND.txt
-| | | SUPPLEMENTARY_FIG_S3_FINAL_SOURCE_DATA.xlsx
-| |   Supplementary_Fig_S3_FINAL_SUBMISSION.tiff
-| | S4/
-| | | Supplementary_Fig_S4_FINAL_LEGEND.txt
-| | | SUPPLEMENTARY_FIG_S4_FINAL_SOURCE_DATA.xlsx
-| |   Supplementary_Fig_S4_FINAL_SUBMISSION.tiff
-| | S5/
-| | | Supplementary_Fig_S5_FINAL_LEGEND.txt
-| | | SUPPLEMENTARY_FIG_S5_FINAL_SOURCE_DATA.xlsx
-| |   Supplementary_Fig_S5_FINAL_SUBMISSION.tiff
-|   S6/
-|   | Supplementary_Fig_S6_FINAL_LEGEND.txt
-|   | SUPPLEMENTARY_FIG_S6_FINAL_SOURCE_DATA.xlsx
-|     Supplementary_Fig_S6_FINAL_SUBMISSION.tiff
-| supplementary_tables/
-|   DLBCL_continuous_model_Supplementary_Tables_FRONTIERS_FINAL_SUBMISSION_READY.xlsx
-| .gitattributes
-| .gitignore
-| CITATION.cff
-| DATA_SOURCES.md
-| LICENSE
-| README.md
-| RELEASE_NOTES.md
-| REPRODUCE.md
-  THIRD_PARTY_DATA_AND_SOFTWARE_NOTICE.md
+.
+|-- code
+|   |-- continuous_model
+|   |   |-- 28_wp1_continuous_score_freeze_v1.R
+|   |   |-- 28f_wp1_continuous_score_freeze_validator_v1.R
+|   |   |-- format_score_space_validation.R
+|   |   |-- generate_final_continuation_reports_and_qc.R
+|   |   |-- generate_stage4c2_model_form_adjudication.R
+|   |   `-- stage4_environment.R
+|   |-- external_validation
+|   |   |-- 29_common_wp2_functions_v1.R
+|   |   |-- 29_wp2_external_continuous_validation_orchestrator_v1.R
+|   |   |-- 29a_wp2_parse_and_map_external_expression_v1.R
+|   |   |-- 29b_wp2_gene_mapping_and_probe_collapse_v1.R
+|   |   |-- 29c_wp2_external_program_scoring_v1.R
+|   |   |-- 29d_wp2_score_qc_and_mapping_sensitivity_v1.R
+|   |   |-- 29e_wp2_program_structure_validation_v1.R
+|   |   |-- 29f_wp2_strategy_b_frozen_loading_projection_v1.R
+|   |   |-- 29g_wp2_strategy_a_scale_diagnostics_and_projection_v1.R
+|   |   |-- 29h_wp2_cross_cohort_integration_v1.R
+|   |   `-- 29v_wp2_external_continuous_validation_validator_v1.R
+|   |-- matched_null_depth
+|   |   |-- 04_06p_scientific_execution.R
+|   |   |-- 05_06p_partitioned_membership_resume.R
+|   |   `-- 06_06p_final_validation_only.R
+|   |-- matching_balance
+|   |   `-- 01_06q_matching_balance_qc.R
+|   |-- orthogonal_TME_benchmark
+|   |   |-- 00_06r_common.R
+|   |   |-- 01_06r_preflight.R
+|   |   |-- 02_06r_orthogonal_tme_benchmark.R
+|   |   `-- 03_06r_validation.R
+|   |-- single_cell
+|   |   `-- 16_FIGURE5_PHASEC_SCIENTIFIC_EXECUTION.R
+|   |-- source_grounded_sensitivity
+|   |   |-- 01_common.R
+|   |   |-- 01_runtime_capture.R
+|   |   |-- 02_bulk_paired_rescore.R
+|   |   |-- 03_spatial_core_sensitivity.R
+|   |   `-- 04_finalize_validate.R
+|   |-- spatial
+|   |   |-- 36_wp3_resume_orchestrator_v3.R
+|   |   |-- 36a_wp3_load_and_validate_spatial_inputs_v3.R
+|   |   |-- 36b_wp3_program_area_eligibility_v3.R
+|   |   |-- 36c_wp3_primary_lognormalize_ucell_v3.R
+|   |   |-- 36d_wp3_sct_ucell_sensitivity_v3.R
+|   |   |-- 36e_wp3_ssgsea_sensitivity_v3.R
+|   |   |-- 36f_wp3_score_qc_concordance_v3.R
+|   |   |-- 36g_wp3_visium_neighbors_v3.R
+|   |   |-- 36h_wp3_spatial_autocorrelation_edge_v3.R
+|   |   |-- 36i_wp3_bivariate_spatial_association_edge_v3.R
+|   |   |-- 36j_wp3_exploratory_pc_v3.R
+|   |   |-- 36k_wp3_capture_area_synthesis_v3.R
+|   |   |-- 36v_wp3_resume_validator_v3.R
+|   |   |-- 37f_wp3_validation_only_finalizer_v4.R
+|   |   |-- 37v_wp3_completed_result_validator_v4.R
+|   |   |-- wp3_common_v3.R
+|   |   `-- wp3_completed_result_loader_v4.R
+|   |-- supplementary_figure_generation
+|   |   |-- S1
+|   |   |   `-- run_s1_s5_correction_stage.py
+|   |   |-- S2
+|   |   |   `-- plot_supplementary_fig_s2.py
+|   |   |-- S3
+|   |   |   `-- plot_supplementary_fig_s3.py
+|   |   |-- S4
+|   |   |   `-- plot_supplementary_fig_s4.py
+|   |   |-- S5
+|   |   |   `-- build_s5.py
+|   |   `-- S6
+|   |       `-- build_s6_authority_and_figure.py
+|   `-- table_figure_generation
+|       |-- plot_figure1_panel_b_integrity_repair.R
+|       |-- plot_Figure_2_CONTINUOUS_MODEL_FINAL.R
+|       |-- plot_Figure_3_CONTINUOUS_GEOMETRY_AND_K_ADJUDICATION_FINAL_V2.R
+|       |-- plot_Figure_4_EXTERNAL_CONTINUOUS_REPLICATION_FINAL.R
+|       |-- plot_Figure_5_SUBMISSION_V2.R
+|       `-- plot_Figure_6_FINAL_SUBMISSION.R
+|-- environment
+|   |-- renv
+|   |   `-- activate.R
+|   |-- 06P_SEED_FORMULA.md
+|   |-- FIGURE4_sessionInfo.txt
+|   |-- FIGURE5_sessionInfo.txt
+|   |-- package_versions.csv
+|   |-- README.md
+|   |-- renv.lock
+|   `-- STAGE4C1_ATTEMPT2_SEED_REGISTRY.csv
+|-- manifests
+|   |-- ABSOLUTE_LOCAL_PATH_SCAN.csv
+|   |-- CREDENTIAL_SCAN.csv
+|   |-- CURRENT_FRAMEWORK_LEGACY_SCAN.csv
+|   |-- DUPLICATE_FILE_SCAN.csv
+|   |-- FIGURE_TERMINOLOGY_PREFLIGHT.csv
+|   |-- FINAL_PUBLIC_GITHUB_TREE.txt
+|   |-- FINAL_SYNC_IMMUTABILITY_AUDIT.csv
+|   |-- GITHUB_RELEASE_SHA256.csv
+|   |-- GITHUB_RELEASE_SHA256_SELF_CHECK.csv
+|   |-- PACKAGE_COMPLETENESS_AUDIT.csv
+|   |-- POST_DELETION_REFERENCE_AUDIT.csv
+|   `-- S7_S9_CURRENT_REFERENCE_SCAN.csv
+|-- source_data
+|   |-- figure_rendering
+|   |   |-- Figure_1
+|   |   |   `-- canonical_programs_v2.csv
+|   |   |-- Figure_2
+|   |   |   |-- GSE31312_COO_metadata.csv
+|   |   |   |-- GSE31312_COO_niche_score_kruskal_test.csv
+|   |   |   |-- GSE31312_primary_score_matrix_498x6.csv
+|   |   |   `-- PCA_SAMPLE_COORDINATES.csv
+|   |   |-- Figure_3
+|   |   |   |-- ALL_VARIANT_K_THRESHOLD_FAILURE_MATRIX.csv
+|   |   |   |-- BOOTSTRAP_FAILURE_DISTRIBUTION_SUMMARY.csv
+|   |   |   |-- FIGURE3_FINAL_DECISION_USED.csv
+|   |   |   |-- FINAL_K_MODEL_FORM_ADJUDICATION_RULES.md
+|   |   |   |-- PCA_EXPLAINED_VARIANCE.csv
+|   |   |   |-- PCA_PROGRAM_LOADINGS.csv
+|   |   |   |-- PRIMARY_K2_K6_THRESHOLD_DECOMPOSITION.csv
+|   |   |   |-- THRESHOLD_FAILURE_FREQUENCY_BY_K.csv
+|   |   |   `-- WP1_PROGRAM_PC_PEARSON_CORRELATIONS.csv
+|   |   |-- Figure_4
+|   |   |   |-- GSE10846_PRIMARY_PEARSON_CORRELATION_MATRIX.csv
+|   |   |   |-- GSE181063_PRIMARY_PEARSON_CORRELATION_MATRIX.csv
+|   |   |   |-- GSE31312_PEARSON_CORRELATION_MATRIX.csv
+|   |   |   |-- WP2_CROSS_COHORT_INTEGRATION_SUMMARY.csv
+|   |   |   |-- WP2_PRIMARY_CORRELATION_EDGES_LONG.csv
+|   |   |   `-- WP2_STRUCTURAL_REPLICATION_POINT_ESTIMATES.csv
+|   |   `-- Figure_6
+|   |       |-- FIGURE6A_CANONICAL_SPOT_SOURCE_DATA.csv
+|   |       |-- WP3_ANTIGEN_PRESENTATION_COVERAGE_AND_RESULT_LIMITATION.csv
+|   |       |-- WP3_FINAL_AREA_AUTHORITY_REGISTRY.csv
+|   |       |-- WP3_FINAL_BIVARIATE_AUTHORITY.csv
+|   |       |-- WP3_FINAL_METHOD_CONCORDANCE_AUTHORITY.csv
+|   |       `-- WP3_FINAL_MORAN_GEARY_AUTHORITY.csv
+|   |-- final_sensitivity_summaries
+|   |   |-- exploratory_continuous_program_os_results.csv
+|   |   |-- harmonized_bulk_sensitivity_summary.csv
+|   |   |-- k2_k6_retention_and_continuity.csv
+|   |   |-- method_consistency_summary.csv
+|   |   |-- orthogonal_benchmark_summary.csv
+|   |   |-- program_membership_provenance_132.csv
+|   |   |-- program_provenance_summary.csv
+|   |   |-- published_taxonomy_limitation.csv
+|   |   |-- shared_gene_memberships.csv
+|   |   |-- spatial_assay_coverage.csv
+|   |   `-- spatial_sensitivity_denominators.csv
+|   |-- single_cell
+|   |   |-- FIGURE5_PANEL_A_SOURCE_DATA.csv.gz
+|   |   |-- FIGURE5_PANEL_B_SOURCE_DATA.csv.gz
+|   |   |-- FIGURE5_PANEL_C_SOURCE_DATA.csv
+|   |   |-- FIGURE5_PANEL_D_COVERAGE_QC.csv
+|   |   |-- FIGURE5_PANEL_D_SOURCE_DATA.csv
+|   |   |-- GSE182434_canonical_gene_coverage.csv
+|   |   `-- GSE182434_program_coverage_summary.csv
+|   |-- README.md
+|   `-- SOURCE_DATA_INDEX.csv
+|-- .gitattributes
+|-- .gitignore
+|-- CITATION.cff
+|-- DATA_SOURCES.md
+|-- LICENSE
+|-- README.md
+|-- RELEASE_NOTES.md
+|-- REPRODUCE.md
+`-- THIRD_PARTY_DATA_AND_SOFTWARE_NOTICE.md

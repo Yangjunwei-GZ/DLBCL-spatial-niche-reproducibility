@@ -1,9 +1,11 @@
-relative_path,line_number,matched_text,classification,risk
-code/supplementary_figure_generation/S6/build_s6_authority_and_figure.py,182,"""Historical_panel"": ""S9 historical program-association component"",",HISTORICAL_PROVENANCE_OR_INTERNAL_CODE,NONE
-code/supplementary_figure_generation/S6/build_s6_authority_and_figure.py,291,"""Historical_panel"": ""S9 historical niche-context panel / S22E"",",HISTORICAL_PROVENANCE_OR_INTERNAL_CODE,NONE
-code/supplementary_figure_generation/S6/build_s6_authority_and_figure.py,300,"""Historical_panel"": ""Historical S9 workflow endpoint"",",HISTORICAL_PROVENANCE_OR_INTERNAL_CODE,NONE
-environment/renv.lock,1376,"""S7"": {",R_PACKAGE_METADATA,NONE
-environment/renv.lock,1377,"""Package"": ""S7"",",R_PACKAGE_METADATA,NONE
-environment/renv.lock,1384,"""URL"": ""https://rconsortium.github.io/S7/, https://github.com/RConsortium/S7"",",R_PACKAGE_METADATA,NONE
-environment/renv.lock,1385,"""BugReports"": ""https://github.com/RConsortium/S7/issues"",",R_PACKAGE_METADATA,NONE
-environment/renv.lock,2775,"""S7"",",R_PACKAGE_METADATA,NONE
+relative_path,line,matched_text,classification,action
+code/supplementary_figure_generation/S6/build_s6_authority_and_figure.py,36,"(""LGALS9-HAVCR2"", ""LGALS9"", ""HAVCR2""),",CURRENT_TEXT_REFERENCE_REVIEW,NONE
+code/supplementary_figure_generation/S6/build_s6_authority_and_figure.py,109,"(AREAS[0], ""LGALS9-HAVCR2"", ""LGALS9""),",CURRENT_TEXT_REFERENCE_REVIEW,NONE
+code/supplementary_figure_generation/S6/build_s6_authority_and_figure.py,182,"""Historical_panel"": ""S9 historical program-association component"",",CURRENT_TEXT_REFERENCE_REVIEW,NONE
+code/supplementary_figure_generation/S6/build_s6_authority_and_figure.py,291,"""Historical_panel"": ""S9 historical niche-context panel / S22E"",",CURRENT_TEXT_REFERENCE_REVIEW,NONE
+code/supplementary_figure_generation/S6/build_s6_authority_and_figure.py,300,"""Historical_panel"": ""Historical S9 workflow endpoint"",",CURRENT_TEXT_REFERENCE_REVIEW,NONE
+code/supplementary_figure_generation/S6/build_s6_authority_and_figure.py,359,- Cap.area3 LGALS9-HAVCR2: LGALS9 unavailable.,CURRENT_TEXT_REFERENCE_REVIEW,NONE
+source_data/final_sensitivity_summaries/program_membership_provenance_132.csv,109,"Immune-cold/exclusion,immune_cold_exclusion,LGALS9,20,FALSE,,Author-curated canonical marker extension,FALSE,TRUE,Wang et al. Cell Reports Medicine 2025,REF_WANG_2025,Direct source location: Wang et al. provides conceptual immune-depleted/exclusion context only | Rationale: The exact gene is not presented by Wang et al. as part of a 22-gene expression signature. Source-context note: candidate excluded/cold phenotype; should be interpreted together with low T-cell and low antigen-presentation sco",CURRENT_TEXT_REFERENCE_REVIEW,NONE
+source_data/final_sensitivity_summaries/spatial_assay_coverage.csv,6,"Cap.area3,V1,Immune-cold/exclusion,21,22,0.954545454545455,LGALS9,Primary,Assay-associated program-gene coverage; not evidence of a biological difference between capture areas.",CURRENT_TEXT_REFERENCE_REVIEW,NONE
+source_data/single_cell/GSE182434_canonical_gene_coverage.csv,109,"Immune-cold / exclusion-associated program,LGALS9,TRUE,LGALS9,""Exact feature-name match in the final 49,632-feature expression matrix used for UCell scoring of the 14,368-cell DLBCL subset.""",CURRENT_TEXT_REFERENCE_REVIEW,NONE
+source_data/figure_rendering/Figure_1/canonical_programs_v2.csv,109,"canonical_programs_v2_2026-07-30,Immune-cold / exclusion-associated program,Immune-cold / excluded niche,LGALS9,20,TRUE,historical_signature_membership_workbook_not_redistributed.xlsx::S2A_Signature_genes::row=133,independent_project_signature_workbook_not_redistributed.xlsx::spatial_niche_signatures::row=131,FALSE,,Direct continuous 22-gene exclusion-associated program score retained for historical reproducibility; it is not the separate derived_exclusion_phenotype_v1 object.,canonical_program_",CURRENT_TEXT_REFERENCE_REVIEW,NONE

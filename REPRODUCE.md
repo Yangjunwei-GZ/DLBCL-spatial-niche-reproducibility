@@ -6,7 +6,7 @@ This compendium documents the final six-program continuous model. It does not re
 
 ## 2. Data access
 
-Download raw or processed public data from GEO using the accessions in `DATA_SOURCES.md`. The repository itself supplies released derived inputs needed for figure inspection and rendering.
+Download raw or processed public data from GEO using the accessions in `DATA_SOURCES.md`. The repository supplies released derived inputs for scientific inspection and verification.
 
 ## 3. Environment setup
 
@@ -16,11 +16,11 @@ The validated R runtime was R 4.5.1. `environment/renv.lock` records 16 of the 2
 renv::restore(lockfile = "environment/renv.lock")
 ```
 
-Python was used for final supplementary-figure engineering. Exact cross-platform reconstruction of every rendering environment is not claimed; released figures and source workbooks remain directly inspectable.
+Python was used for final supplementary-figure engineering. Exact cross-platform reconstruction of every rendering environment is not claimed.
 
-The current figure scripts use three configurable roots: the repository root, `source_data/`, and `supplementary_tables/`. Some retained analysis and final-render scripts also expect raw GEO files or project-derived authorities that are not redistributed. For those components, use the released derived authority rather than treating the package as a one-command raw-to-figure build.
+The retained figure scripts use configurable project and source-data roots. Some historical final-render scripts also expect raw GEO files, project-derived authorities, or journal-distributed supplementary material that is not duplicated here. These scripts are retained for provenance; the repository is not presented as a one-command publication-artwork build.
 
-The source workbooks are immutable scientific artifacts. Embedded provenance-path strings record where analysis inputs were produced; they are not required to locate public inputs and do not replace the relative paths in `source_data/SOURCE_DATA_INDEX.csv`.
+Use the relative paths in `source_data/SOURCE_DATA_INDEX.csv` to locate repository-distributed authorities. Entries explicitly marked as not included identify frozen archival or journal-distributed material and are not runtime claims.
 
 ## 4. Program definitions
 
@@ -52,7 +52,7 @@ GSE276542 workflow scripts are under `code/spatial/`. Final authority tables for
 
 ## 11. Spatial robustness analyses
 
-Current matched-null, depth-adjusted, residual-permutation, matching-balance, and direct-source/core scripts are retained. Their display-ready values are released in the S5 source workbook, the final Supplementary Tables, and `source_data/final_sensitivity_summaries/spatial_sensitivity_denominators.csv`. Matched-null support (42/54 evaluable combinations overall; 25/32 primary-plus-exploratory combinations) is distinct from depth-adjusted residual support (30/30 DLBCL-area combinations). Large detailed intermediates and replicate-level matched membership partitions are reserved for the associated Zenodo archival release.
+Current matched-null, depth-adjusted, residual-permutation, matching-balance, and direct-source/core scripts are retained. Compact repository summaries are provided in `source_data/final_sensitivity_summaries/spatial_sensitivity_denominators.csv`; complete submission-facing tables are distributed with the journal materials. Matched-null support (42/54 evaluable combinations overall; 25/32 primary-plus-exploratory combinations) is distinct from depth-adjusted residual support (30/30 DLBCL-area combinations). Large detailed intermediates and replicate-level matched membership partitions are reserved for the associated archival release.
 
 ## 12. LR expression-only support
 
@@ -60,15 +60,15 @@ Supplementary Figure S6 reports expression support and local co-occurrence only.
 
 ## 13. Figure generation
 
-Final scripts for Figures 1-6 are under `code/table_figure_generation/`. Figures 1-5 use repository-configurable roots. Figure 6 consumes released project-derived inputs and is therefore documented as a derived-input workflow.
+Final scripts for Figures 1-6 are under `code/table_figure_generation/`. They are retained as provenance and may write generated outputs to caller-selected output directories. Publication-ready binaries are distributed by the journal and are not repository inputs.
 
 ## 14. Supplementary figure generation
 
-Current generators for S1-S6 are under `code/supplementary_figure_generation/`. The public package retains one final submission TIFF, one legend, and one source workbook for each figure. Several generators consume project-derived inputs not redistributed in the lightweight GitHub package; their released source workbooks provide the public reproduction inputs.
+Current generators for S1-S6 are under `code/supplementary_figure_generation/`. Several generators consume project-derived or journal-distributed authorities not duplicated in this repository; they are retained for provenance and methodological inspection.
 
 ## 15. Supplementary Tables
 
-The sole release workbook is [`supplementary_tables/DLBCL_continuous_model_Supplementary_Tables_FRONTIERS_FINAL_SUBMISSION_READY.xlsx`](supplementary_tables/DLBCL_continuous_model_Supplementary_Tables_FRONTIERS_FINAL_SUBMISSION_READY.xlsx). It contains 71 worksheets and no formulas.
+The compiled submission-facing Supplementary Tables workbook is distributed with the journal submission/publication and is not duplicated in this repository. Repository-distributed machine-readable authorities are indexed in `source_data/SOURCE_DATA_INDEX.csv`.
 
 ## 16. SHA verification
 
