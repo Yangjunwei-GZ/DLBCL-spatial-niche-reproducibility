@@ -1,3 +1,0 @@
-Supplementary Figure S4 | Complete primary-DLBCL atlas of six literature-informed curated composite programs
-
-The five-area by six-program UCell atlas extends the representative spatial display in main Figure 6 without changing scores. Cap.area3 used Visium V1, whereas Cap.area4-Cap.area7 used Visium V2. Antigen-presentation program-gene coverage was 21/22 in V1 and 13/22 in V2. This assay-associated coverage difference must not be interpreted as a biological difference among capture areas. Physical scale bars are not shown because the available image metadata do not provide a verifiable physical pixel-to-micrometre calibration. No rescoring was performed.
