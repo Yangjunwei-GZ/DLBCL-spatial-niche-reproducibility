@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Please cite the associated study and this reproducibility repository."
 type: software
 title: "DLBCL continuous spatially informed microenvironment programs"
-version: "1.0.0"
+version: "1.0.1"
 authors:
   - family-names: Yang
     given-names: Junwei
