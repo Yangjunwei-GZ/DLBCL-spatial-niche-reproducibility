@@ -6,11 +6,11 @@ This compendium documents the final six-program continuous model. It does not re
 
 ## 2. Data access
 
-Download raw or processed public data from GEO using the accessions in `DATA_SOURCES.md`. The repository itself supplies frozen derived inputs needed for figure inspection and rendering.
+Download raw or processed public data from GEO using the accessions in `DATA_SOURCES.md`. The repository itself supplies released derived inputs needed for figure inspection and rendering.
 
 ## 3. Environment setup
 
-The validated R runtime was R 4.5.1. `environment/renv.lock` records 16 of the 28 direct R packages required by the public scripts. Exact versions for the remaining 12 packages are documented in `environment/README.md` and `environment/package_versions.csv` from frozen execution evidence. Exact one-lock restoration is therefore partial and is not claimed.
+The validated R runtime was R 4.5.1. `environment/renv.lock` records 16 of the 28 direct R packages required by the public scripts. Exact versions for the remaining 12 packages are documented in `environment/README.md` and `environment/package_versions.csv` from retained execution records. Exact one-lock restoration is therefore partial and is not claimed.
 
 ```r
 renv::restore(lockfile = "environment/renv.lock")
@@ -20,7 +20,7 @@ Python was used for final supplementary-figure engineering. Exact cross-platform
 
 The current figure scripts use three configurable roots: the repository root, `source_data/`, and `supplementary_tables/`. Some retained analysis and final-render scripts also expect raw GEO files or project-derived authorities that are not redistributed. For those components, use the released derived authority rather than treating the package as a one-command raw-to-figure build.
 
-The source workbooks are immutable scientific artifacts. Embedded provenance-path strings record where frozen inputs were produced; they are not required to locate public inputs and do not replace the relative paths in `source_data/SOURCE_DATA_INDEX.csv`.
+The source workbooks are immutable scientific artifacts. Embedded provenance-path strings record where analysis inputs were produced; they are not required to locate public inputs and do not replace the relative paths in `source_data/SOURCE_DATA_INDEX.csv`.
 
 ## 4. Program definitions
 
@@ -28,23 +28,23 @@ The recorded membership table is `source_data/figure_rendering/Figure_1/canonica
 
 ## 5. Bulk scoring
 
-Current GSE31312 primary analyses use the frozen 498 x 6 historical score authority. The primary score matrix is a validated transformation of the recorded historical ssGSEA score space; the original package environment cannot be reconstructed exactly. Consequently, exact regeneration of the historical matrix from raw expression is not claimed. Reviewer-requested harmonized sensitivity scoring used GSVA 2.4.9 in ssGSEA mode across GSE31312 (n=498), GSE10846 unsorted bulk samples (n=414), and GSE181063 (n=1,310). Frozen current summaries are under `source_data/final_sensitivity_summaries/`, and workflow scripts are under `code/continuous_model/`.
+Current GSE31312 primary analyses use the validated 498 x 6 historical score matrix. The primary score matrix is a validated transformation of the recorded historical ssGSEA score space; the original package environment cannot be reconstructed exactly. Consequently, exact regeneration of the historical matrix from raw expression is not claimed. Harmonized sensitivity scoring used GSVA 2.4.9 in ssGSEA mode across GSE31312 (n=498), GSE10846 unsorted bulk samples (n=414), and GSE181063 (n=1,310). Current summaries are under `source_data/final_sensitivity_summaries/`, and workflow scripts are under `code/continuous_model/`.
 
 ## 6. COO analyses
 
-Use the frozen GSE31312 score matrix, COO metadata, PCA coordinates, and Kruskal-Wallis result under `source_data/figure_rendering/Figure_2/`. The current Figure 2 script is under `code/table_figure_generation/`.
+Use the validated GSE31312 score matrix, COO metadata, PCA coordinates, and Kruskal-Wallis result under `source_data/figure_rendering/Figure_2/`. The current Figure 2 script is under `code/table_figure_generation/`.
 
 ## 7. Candidate-k adjudication
 
-Use `source_data/figure_rendering/Figure_3/`, `source_data/final_sensitivity_summaries/k2_k6_retention_and_continuity.csv`, and the current model-form adjudication scripts. The retention rules were defined during revision before the reviewer-requested execution. No candidate k = 2-6 was sufficiently stable under the full rule set; a possible k=2 structure remained stability-limited. Final k was not selected and no discrete taxonomy was assigned. Figure 3 is reproduced from the released derived authority.
+Use `source_data/figure_rendering/Figure_3/`, `source_data/final_sensitivity_summaries/k2_k6_retention_and_continuity.csv`, and the current model-form adjudication scripts. The retention rules were prespecified before model-form adjudication. No candidate k = 2-6 was sufficiently stable under the full rule set; a possible k=2 structure remained stability-limited. Final k was not selected and no discrete taxonomy was assigned. Figure 3 is reproduced from the released derived inputs.
 
 ## 8. External continuous replication
 
-The GSE10846 and GSE181063 frozen score/correlation inputs and integration summaries are under `source_data/figure_rendering/Figure_4/`. The historical GSE10846 primary analysis used all 420 profiles; reviewer-requested harmonized and de-overlap sensitivities used the 414 unsorted bulk samples. Workflow scripts remain under `code/external_validation/` for provenance, and frozen public summaries are under `source_data/final_sensitivity_summaries/`.
+The GSE10846 and GSE181063 score/correlation inputs and integration summaries are under `source_data/figure_rendering/Figure_4/`. The historical GSE10846 primary analysis used all 420 profiles; harmonized and de-overlap sensitivity analyses used the 414 unsorted bulk samples. Workflow scripts remain under `code/external_validation/` for provenance, and current public summaries are under `source_data/final_sensitivity_summaries/`.
 
 ## 9. Single-cell contextualization
 
-GSE182434 analyses use the DLBCL-only subset of 14,368 retained cells from four patients. Frozen UCell scores, UMAP coordinates, panel source tables, and canonical-gene coverage are under `source_data/single_cell/`. This is contextualization, not independent patient-level validation.
+GSE182434 analyses use the DLBCL-only subset of 14,368 retained cells from four patients. Validated UCell scores, UMAP coordinates, panel source tables, and gene-coverage records are under `source_data/single_cell/`. This is contextualization, not independent patient-level validation.
 
 ## 10. Spatial continuous analysis
 
@@ -60,11 +60,11 @@ Supplementary Figure S6 reports expression support and local co-occurrence only.
 
 ## 13. Figure generation
 
-Final scripts for Figures 1-6 are under `code/table_figure_generation/`. Figures 1-5 use repository-configurable roots. Figure 6 consumes frozen project-derived authorities and is therefore documented as a released-derived-authority workflow.
+Final scripts for Figures 1-6 are under `code/table_figure_generation/`. Figures 1-5 use repository-configurable roots. Figure 6 consumes released project-derived inputs and is therefore documented as a derived-input workflow.
 
 ## 14. Supplementary figure generation
 
-Current generators for S1-S6 are under `code/supplementary_figure_generation/`. The public package retains one PDF, one legend, and one source workbook for each figure. Several generators consume project-derived authorities not redistributed in the lightweight GitHub package; their released source workbooks are the reproduction authority.
+Current generators for S1-S6 are under `code/supplementary_figure_generation/`. The public package retains one final submission TIFF, one legend, and one source workbook for each figure. Several generators consume project-derived inputs not redistributed in the lightweight GitHub package; their released source workbooks provide the public reproduction inputs.
 
 ## 15. Supplementary Tables
 

@@ -1,4 +1,9 @@
 relative_path,line_number,matched_text,classification,risk
-code/supplementary_figure_generation/S6/build_s6_authority_and_figure.py,182,"""Historical_panel"": ""S9 historical program-association component"",",HISTORICAL_PROVENANCE_CONTEXT,NONE
-code/supplementary_figure_generation/S6/build_s6_authority_and_figure.py,291,"""Historical_panel"": ""S9 historical niche-context panel / S22E"",",HISTORICAL_PROVENANCE_CONTEXT,NONE
-code/supplementary_figure_generation/S6/build_s6_authority_and_figure.py,300,"""Historical_panel"": ""Historical S9 workflow endpoint"",",HISTORICAL_PROVENANCE_CONTEXT,NONE
+code/supplementary_figure_generation/S6/build_s6_authority_and_figure.py,182,"""Historical_panel"": ""S9 historical program-association component"",",HISTORICAL_PROVENANCE_OR_INTERNAL_CODE,NONE
+code/supplementary_figure_generation/S6/build_s6_authority_and_figure.py,291,"""Historical_panel"": ""S9 historical niche-context panel / S22E"",",HISTORICAL_PROVENANCE_OR_INTERNAL_CODE,NONE
+code/supplementary_figure_generation/S6/build_s6_authority_and_figure.py,300,"""Historical_panel"": ""Historical S9 workflow endpoint"",",HISTORICAL_PROVENANCE_OR_INTERNAL_CODE,NONE
+environment/renv.lock,1376,"""S7"": {",R_PACKAGE_METADATA,NONE
+environment/renv.lock,1377,"""Package"": ""S7"",",R_PACKAGE_METADATA,NONE
+environment/renv.lock,1384,"""URL"": ""https://rconsortium.github.io/S7/, https://github.com/RConsortium/S7"",",R_PACKAGE_METADATA,NONE
+environment/renv.lock,1385,"""BugReports"": ""https://github.com/RConsortium/S7/issues"",",R_PACKAGE_METADATA,NONE
+environment/renv.lock,2775,"""S7"",",R_PACKAGE_METADATA,NONE
