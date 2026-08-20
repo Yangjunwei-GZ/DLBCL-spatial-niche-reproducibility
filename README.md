@@ -46,4 +46,4 @@ Project-authored code and original repository materials are released under the M
 
 ## Citation
 
-Citation metadata are provided in [CITATION.cff](CITATION.cff), and the release scope is summarized in [RELEASE_NOTES.md](RELEASE_NOTES.md). No Zenodo DOI has been assigned or claimed.
+Citation metadata are provided in [CITATION.cff](CITATION.cff), and the release scope is summarized in [RELEASE_NOTES.md](RELEASE_NOTES.md). The current v1.0.2 Zenodo DOI is [10.5281/zenodo.22008715](https://doi.org/10.5281/zenodo.22008715); the all-versions/latest-version concept DOI is [10.5281/zenodo.21960758](https://doi.org/10.5281/zenodo.21960758).
